@@ -1,0 +1,249 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "category": "Women",
+      "subcategories": [
+        {
+          "name": "tops",
+          "images": [
+            "https://img.drz.lazcdn.com/static/bd/p/7687941dd3325325a4ee037331a949be.jpg_720x720q80.jpg",
+            "https://rang-bd.com/wp-content/uploads/2024/06/RWR-TPS-00091-2.webp",
+            "https://m.media-amazon.com/images/I/51BifxnGWfL._AC_UY1100_.jpg"
+          ],
+          "productName": ["Casual Top", "Formal Blouse", "Summer Tank"],
+          "video": "https://drive.google.com/file/d/1sSa7yejEDQ7mX2Hs0wb3RXEQmH2kM5s0/view?usp=drive_link"
+        },
+        {
+          "name": "jens",
+          "images": [
+            "https://assets.vogue.com/photos/663a8ccd4e94e0f33e265f23/3:4/w_748%2Cc_limit/BestJeans_Slides%2520(1)_0022_image7.jpg",
+            "https://i5.walmartimages.com/asr/9f00f7f2-04c3-405b-9b07-9b12d09d9628.7b3b79cac9606a1e72413b7d1807fc84.jpeg",
+            "https://tailoredathlete.co.uk/cdn/shop/files/TA-WOMENS-28-04-23375461_1200x.jpg?v=1688654954"
+          ],
+          "productName": ["Skinny Jeans", "Bootcut Denim", "Straight-Leg Jeans"],
+          "video": "https://www.youtube.com/watch?v=57_IJmnkl5A"
+        },
+        {
+          "name": "nightware",
+          "images": [
+            "https://bdmanja.com/wp-content/uploads/2022/03/f9aee5b023356a36e4d32e78acbd9be6-e1648461671721-300x300.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mCJPx2TYELKwjWXemWJZnv1CHSFkVv7CFQ&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsxRqM6OA5dP-dTM9Bb1MzAmACVlx-2MMb3g5MCQotyIYSEIu99Fu2MD17eQh4kTCWWQ&usqp=CAU"
+          ],
+          "productName": ["Silk Pajamas", "Cotton Nightgown", "Flannel Sleepwear"],
+          "video": "/src/assets/video/Innter_garments.mp4"
+        },
+        {
+          "name": "footware",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmVeawWMdNZ8gkChR3cf_hpAu-rnt0t1OWmQ&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5vTW9WxnTX8T6mHSGWRDEIQlUJYk8KdjrDQ&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAcGj1VbSdfB4-oIAL8EGKN-LRFBfRMs_XA&s"
+          ],
+          "productName": ["Leather Boots", "Canvas Sneakers", "Ballet Flats"],
+          "video": "/src/assets/video/women_footware.mp4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Men",
+      "subcategories": [
+        {
+          "name": "tops",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Wktc9nQYwDk7kal471f-Srcq9a4Un_7l5A&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6W1KG7P8XzDf62QA6qGVIk8PYJORBzOuzBg&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJQWd3nC1tj49VE1CpPKmMr_XAz80UVT6kUw&s"
+          ],
+          "productName": ["Basic T-Shirt", "Polo Shirt", "Long Sleeve Shirt"],
+          "video": "video/Men_jackets.mp4"
+        },
+        {
+          "name": "jackets",
+          "images": [
+            "https://images-cdn.ubuy.co.in/6537d66ff37a020b552e9322-tacvasen-men-39-s-cotton-jackets-winter.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1kosfdFvgOOQKFLoIxsnpBt1s9UziV-RbA&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR72wVqmlQ1daCLiENXDxsy6JVDPgXO5nWJA&s"
+          ],
+          "productName": ["Leather Jacket", "Bomber Jacket", "Winter Coat"],
+          "video": "/Men_jackets.mp4"
+        },
+        {
+          "name": "nightware",
+          "images": [
+            "https://5.imimg.com/data5/SELLER/Default/2024/10/458646660/DD/AM/QK/1413924/men-s-nightwear-apparel-500x500.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqpjtjP3s4WhvMu3CxefSKDduqXMfsm8AhOg&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSije1ibh0rcqO53OAgLS7Zgxqti96KBLGMA&s"
+          ],
+          "productName": ["Cotton Pajamas", "Fleece Robe", "Sleep Shorts"],
+          "video": "Men_jackets.mp4"
+        },
+        {
+          "name": "footware",
+          "images": [
+            "https://kxadmin.metroshoes.com/product/18-254/550/18-254LA23.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIRsPSZNIbI0iZ1BbJ8A3af9aMhUyqhjSW6A&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwsw8hJ6yoTPPXdAbmupYyrBsHGNtdLznIgw&s"
+          ],
+          "productName": ["Running Shoes", "Loafers", "Boots"],
+          "video": "src/assets/video/men_shoose.mp4"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Kids",
+      "subcategories": [
+        {
+          "name": "tops",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tv2o-wSv_ViXR9I9tpnl7WrjxhYeMSs9lQ&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4AL3kqIIvEZIvBn8ZHDMavilgT7PtotzNg&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTARQ5g1Mftj2HF19ePU4NyuHVN9TzADdi_kg&s"
+          ],
+          "productName": ["Graphic Tee", "Hoodie", "Polo Shirt"],
+          "video": "src/assets/video/Kids.mp4"
+        },
+        {
+          "name": "jackets",
+          "images": [
+            "https://5.imimg.com/data5/SELLER/Default/2023/1/SX/FN/TE/3310206/kids-winter-jacket-500x500.jpg",
+            "https://m.media-amazon.com/images/I/61ZloML6dSL._AC_UY1000_.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8rIfiLZ3VlFpDnt3DG4Yapcfc5EvG4ClUg&s"
+          ],
+          "productName": ["Winter Jacket", "Denim Jacket", "Raincoat"],
+          "video": "src/assets/video/Kids.mp4"
+        },
+        {
+          "name": "underware",
+          "images": [
+            "https://i5.walmartimages.com/asr/b392d80f-8b8c-4e70-b8e5-e3fb180ac4df.1923191e26713447d322121246d3b7e8.jpeg",
+            "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg",
+            "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg"
+          ],
+          "productName": ["Cotton Briefs", "Thermal Underwear", "Boxers"],
+          "video": "src/assets/video/Kids.mp4"
+        },
+        {
+          "name": "footware",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+          ],
+          "productName": ["Sneakers", "Boots", "Sandals"],
+          "video": "src/assets/video/Kids.mp4"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Fashion-Accessories",
+      "images": [
+        "https://example.com/kids/tops1.jpg",
+        "https://example.com/kids/tops2.jpg",
+        "https://example.com/kids/tops3.jpg"
+      ],
+      "productName": ["Sunglasses", "Bags", "Watches"],
+      "video": "src/assets/video/Valus.mp4"
+    },
+    {
+  "id": 5,
+  "category": "Home-Textile",
+  "subcategories": [
+    {
+      "name": "tops",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tv2o-wSv_ViXR9I9tpnl7WrjxhYeMSs9lQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4AL3kqIIvEZIvBn8ZHDMavilgT7PtotzNg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTARQ5g1Mftj2HF19ePU4NyuHVN9TzADdi_kg&s"
+      ],
+      "productName": ["Graphic Tee", "Hoodie", "Polo Shirt"],
+      "video": "src/assets/video/Kids.mp4"
+    },
+    {
+      "name": "jackets",
+      "images": [
+        "https://5.imimg.com/data5/SELLER/Default/2023/1/SX/FN/TE/3310206/kids-winter-jacket-500x500.jpg",
+        "https://m.media-amazon.com/images/I/61ZloML6dSL._AC_UY1000_.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8rIfiLZ3VlFpDnt3DG4Yapcfc5EvG4ClUg&s"
+      ],
+      "productName": ["Winter Jacket", "Denim Jacket", "Raincoat"],
+      "video": "src/assets/video/Kids.mp4"
+    },
+    {
+      "name": "underware",
+      "images": [
+        "https://i5.walmartimages.com/asr/b392d80f-8b8c-4e70-b8e5-e3fb180ac4df.1923191e26713447d322121246d3b7e8.jpeg",
+        "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg",
+        "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg"
+      ],
+      "productName": ["Cotton Briefs", "Thermal Underwear", "Boxers"],
+      "video": "src/assets/video/Kids.mp4"
+    },
+    {
+      "name": "footware",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+      ],
+      "productName": ["Sneakers", "Boots", "Sandals"],
+      "video": "src/assets/video/Kids.mp4"
+    }
+  ]
+},
+{
+  "id": 6,
+  "category": "Non-Textile",
+  "subcategories": [
+    {
+      "name": "tops",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tv2o-wSv_ViXR9I9tpnl7WrjxhYeMSs9lQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4AL3kqIIvEZIvBn8ZHDMavilgT7PtotzNg&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTARQ5g1Mftj2HF19ePU4NyuHVN9TzADdi_kg&s"
+      ],
+      "productName": ["Graphic Tee", "Hoodie", "Polo Shirt"],
+      "video": "src/assets/video/Kids.mp4"
+    },
+    {
+      "name": "jackets",
+      "images": [
+        "https://5.imimg.com/data5/SELLER/Default/2023/1/SX/FN/TE/3310206/kids-winter-jacket-500x500.jpg",
+        "https://m.media-amazon.com/images/I/61ZloML6dSL._AC_UY1000_.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8rIfiLZ3VlFpDnt3DG4Yapcfc5EvG4ClUg&s"
+      ],
+      "productName": ["Winter Jacket", "Denim Jacket", "Raincoat"],
+      "video": "src/assets/video/Kids.mp4"
+    },
+    {
+      "name": "underware",
+      "images": [
+        "https://i5.walmartimages.com/asr/b392d80f-8b8c-4e70-b8e5-e3fb180ac4df.1923191e26713447d322121246d3b7e8.jpeg",
+        "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg",
+        "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg"
+      ],
+      "productName": ["Cotton Briefs", "Thermal Underwear", "Boxers"],
+      "video": "src/assets/video/Kids.mp4"
+    },
+    {
+      "name": "footware",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+      ],
+      "productName": ["Sneakers", "Boots", "Sandals"],
+      "video": "src/assets/video/Kids.mp4"
+    }
+  ]
+}
+  ]
+}
+
+
+
+
