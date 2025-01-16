@@ -1,6 +1,6 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
-import oranogramimg from '../assets/image/Organogram.JPG'
+import oranogramimg from '../assets/image/Organogram.jpeg'
 import navBgimg from '../assets/image/Organogram_Top_Image.jpeg'
 
 

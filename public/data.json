@@ -184,7 +184,7 @@
       "video": "src/assets/video/Kids.mp4"
     },
     {
-      "name": "footware",
+      "name": "Table Cloth",
       "images": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
@@ -197,46 +197,46 @@
 },
 {
   "id": 6,
-  "category": "Non-Textile",
+  "category": "Non Textile",
   "subcategories": [
     {
-      "name": "tops",
+      "name": "Handy crafts",
       "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tv2o-wSv_ViXR9I9tpnl7WrjxhYeMSs9lQ&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4AL3kqIIvEZIvBn8ZHDMavilgT7PtotzNg&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTARQ5g1Mftj2HF19ePU4NyuHVN9TzADdi_kg&s"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRtapdlj6c6UmKEozK9TkLvMmpiB9FMyi4ZTVuUxT2Ijcot4Gx4RpaEHXF-4UHGikU7w&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSRNdxMrMOK_EHVET5SWgM11xPDho-gSS2UBu6HxRABVfq7rIadmiY1jSFPXpo5t2oTw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTce_9m6wVbRwBWMpaRBb6CeULJO0spHzCZiA&s"
       ],
-      "productName": ["Graphic Tee", "Hoodie", "Polo Shirt"],
+      "productName": ["Artisans", "Stock", "DRY Crafts"],
       "video": "src/assets/video/Kids.mp4"
     },
     {
-      "name": "jackets",
+      "name": "Coconut shell",
       "images": [
-        "https://5.imimg.com/data5/SELLER/Default/2023/1/SX/FN/TE/3310206/kids-winter-jacket-500x500.jpg",
-        "https://m.media-amazon.com/images/I/61ZloML6dSL._AC_UY1000_.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8rIfiLZ3VlFpDnt3DG4Yapcfc5EvG4ClUg&s"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9qbWj1blaYF5HkPUQJ6eCvaR_2wmZqKZ8A&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxSQer9W-dlLTHIQ5A2oDZPnLlGbRUjLDBCw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLNSzUIaq2lKqyYqYYWUuRopyY6eH6JHD8g&s"
       ],
-      "productName": ["Winter Jacket", "Denim Jacket", "Raincoat"],
+      "productName": ["Nalla", "Aquea Crab", "Shell Art"],
       "video": "src/assets/video/Kids.mp4"
     },
     {
-      "name": "underware",
+      "name": "Wooden Item",
       "images": [
-        "https://i5.walmartimages.com/asr/b392d80f-8b8c-4e70-b8e5-e3fb180ac4df.1923191e26713447d322121246d3b7e8.jpeg",
-        "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg",
-        "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTb8nyNdez9M6bYCOSkwqqCY6jSqsQ3qYsTQ&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7It2QIaIcTHbEH2033ao8olVmAWH3WE_eIA&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvTGz0xdy5yw1oy7DDOVBEjesH8nYnY9VMwQ&s"
       ],
-      "productName": ["Cotton Briefs", "Thermal Underwear", "Boxers"],
+      "productName": ["Gurmukhi", "Wooden Kitchen", "Nurture"],
       "video": "src/assets/video/Kids.mp4"
     },
     {
-      "name": "footware",
+      "name": "Household Item",
       "images": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjKAvPMFDNAFdPECkraY-L9vnPXnkv024HgQ&s",
+       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwW9iki9LHEppUtcVIIIkSjet5JRIvdGZg_Q&s",
+       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGx3Yr49YYt9i8GSq6Rehodh6xBFczidodYQ&s"
       ],
-      "productName": ["Sneakers", "Boots", "Sandals"],
+      "productName": ["Plastic Items", "Wrawing", "House Hold"],
       "video": "src/assets/video/Kids.mp4"
     }
   ]

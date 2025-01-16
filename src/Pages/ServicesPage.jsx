@@ -1,5 +1,5 @@
 import Nav from "../components/Navber/Nav";
-import services from '../assets/image/complians/services.jpg'
+import services from '../assets/image/complians/services.jpeg'
 import servicescover from '../assets/image/complians/servicescover.jpg'
 import vedio from '../assets/video/Why_choose_SSL.mp4'
 const ServicesPage = () => {

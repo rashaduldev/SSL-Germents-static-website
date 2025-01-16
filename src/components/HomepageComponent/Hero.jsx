@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import videoSrc from '../../assets/video/garment_video.mp4'; // Import your video
+import videoSrc from '../../assets/video/garment_video_update.mp4'; // Import your video
 // import ShineText from '../ShineText';
 import img1 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate1.png';
 import img2 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate10.png';
