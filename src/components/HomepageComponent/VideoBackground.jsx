@@ -1,12 +1,10 @@
-import videoSrc from '../../assets/video/Valus.mp4';
-
 const VideoBackground = () => {
   return (
     <div className="relative w-full h-[70vh] overflow-hidden">
       {/* Background Video */}
       <video 
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src={videoSrc} 
+        src="https://res.cloudinary.com/de8yddexc/video/upload/v1737120267/SSL/ea9rnj9ojflzbdqtqe8p.mp4"
         autoPlay
         loop
         muted

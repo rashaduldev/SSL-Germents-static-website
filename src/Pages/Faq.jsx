@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Nav from "../components/Navber/Nav";
-import faqvedio from '../assets/video/FAQ.mp4';
 import { NavLink } from 'react-router-dom';
 
 const Faq = () => {
@@ -33,7 +32,7 @@ const Faq = () => {
     <div className="relative mt-20 w-full h-[40vh]">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src={faqvedio}
+        src= "https://res.cloudinary.com/de8yddexc/video/upload/v1737121936/SSL/x5sugywnkafiawux3q1o.mp4"     
         autoPlay
         loop
         muted

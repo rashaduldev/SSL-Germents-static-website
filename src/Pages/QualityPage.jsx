@@ -1,7 +1,6 @@
 import Nav from "../components/Navber/Nav";
 import SecondNavImg from "../components/SecondNavImg";
 import quality from '../assets/image/quality.jpeg';
-import qualityvedio from '../assets/video/Quality.mp4';
 
 const QualityPage = () => {
   return (
@@ -73,7 +72,7 @@ const QualityPage = () => {
         <div className="flex-1 mx-auto">
         <div className="flex-1 mx-auto">
           <video 
-            src={qualityvedio} 
+            src="https://res.cloudinary.com/de8yddexc/video/upload/v1737120436/SSL/qsekfyzcbrg8quzrjdos.mp4"
             autoPlay 
             loop 
             muted 

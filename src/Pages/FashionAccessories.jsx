@@ -1,5 +1,4 @@
 import Nav from "../components/Navber/Nav";
-import vedio from "../assets/video/men_shoose.mp4";
 
 const FashionAccessories = () => {
     return (
@@ -14,7 +13,7 @@ const FashionAccessories = () => {
                         loop
                         preload="auto"
                     >
-                        <source src={vedio} type="video/mp4" />
+                        <source src="https://res.cloudinary.com/de8yddexc/video/upload/v1737120436/SSL/o9tm6qtdgcvwvjq0tmqj.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>

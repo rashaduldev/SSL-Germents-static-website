@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import videoSrc from '../../assets/video/garment_video_update.mp4'; // Import your video
 // import ShineText from '../ShineText';
 import img1 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate1.png';
 import img2 from '../../assets/image/fontImage/Top_Banner_Certification/Certificate10.png';
@@ -50,7 +49,7 @@ const Hero = () => {
         onEnded={handleVideoEnded}
         playsInline
       >
-        <source src={videoSrc} type="video/mp4" />
+        <source src="https://res.cloudinary.com/de8yddexc/video/upload/v1737121531/SSL/ru53cktf3buymgz7v02y.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

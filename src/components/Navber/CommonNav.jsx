@@ -194,28 +194,28 @@ const CommonNav = () => {
         </button>
         <ul className="absolute left-0 top-full min-w-[102px] rounded-lg md:space-y-2 md:w-[100px] hidden group-hover:block">
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/tops'}>Jewelry
+            <NavLink to={'/gallery/fashion/jewelry'}>Jewelry
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/jackets'}>Cap
+            <NavLink to={'/gallery/fashion/cap'}>Cap
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/underware'}>Gloves</NavLink>
+            <NavLink to={'/gallery/fashion/gloves'}>Gloves</NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Bag pack
+            <NavLink to={'/gallery/fashion/bagpack'}>Bag pack
             </NavLink>
           </li>       <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Kitchen Apron
+            <NavLink to={'/gallery/fashion/kitchenapron'}>Kitchen Apron
 
             </NavLink>
           </li>       <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Bag
+            <NavLink to={'/gallery/fashion/bag'}>Bag
             </NavLink>
           </li>       <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Luggage
+            <NavLink to={'/gallery/fashion/luggage'}>Luggage
             </NavLink>
           </li> 
         </ul>
@@ -228,36 +228,36 @@ const CommonNav = () => {
         </button>
         <ul className="absolute left-0 top-full  rounded-lg md:space-y-2 md:w-[100px] hidden group-hover:block min-w-32 -ml-5">
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/tops'}>Bed Cover
+            <NavLink to={'/gallery/hometextile/bedcover'}>Bed Cover
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/jackets'}>Cushion Cover
+            <NavLink to={'/gallery/hometextile/cushioncover'}>Cushion Cover
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/underware'}>Pillow Cover
+            <NavLink to={'/gallery/hometextile/pillowcover'}>Pillow Cover
 
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Beach Towel
+            <NavLink to={'/gallery/hometextile/beachtowel'}>Beach Towel
 
             </NavLink>
           </li><li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Kitchen Towel
+            <NavLink to={'/gallery/hometextile/kitchentowel'}>Kitchen Towel
 
             </NavLink>
           </li><li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Place Mat
+            <NavLink to={'/gallery/hometextile/placemat'}>Place Mat
 
             </NavLink>
           </li><li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Table Runner
+            <NavLink to={'/gallery/hometextile/tablerunner'}>Table Runner
 
             </NavLink>
           </li><li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/kids/footware'}>Table Cloth
+            <NavLink to={'/gallery/hometextile/tablecloth'}>Table Cloth
 
             </NavLink>
           </li>

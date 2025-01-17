@@ -1,7 +1,6 @@
 import Nav from "../components/Navber/Nav";
 import services from '../assets/image/complians/services.jpeg'
 import servicescover from '../assets/image/complians/servicescover.jpg'
-import vedio from '../assets/video/Why_choose_SSL.mp4'
 const ServicesPage = () => {
   return (
    <div>
@@ -101,7 +100,7 @@ const ServicesPage = () => {
       // poster="https://via.placeholder.com/600x400"
     >
       <source
-        src={vedio}
+        src="https://res.cloudinary.com/de8yddexc/video/upload/v1737121956/SSL/emexk3wpcs5pmj1ctev6.mp4"
         type="video/mp4"
       />
       Your browser does not support the video tag.

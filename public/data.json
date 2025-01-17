@@ -12,7 +12,7 @@
             "https://m.media-amazon.com/images/I/51BifxnGWfL._AC_UY1100_.jpg"
           ],
           "productName": ["Casual Top", "Formal Blouse", "Summer Tank"],
-          "video": "https://drive.google.com/file/d/1sSa7yejEDQ7mX2Hs0wb3RXEQmH2kM5s0/view?usp=drive_link"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120783/SSL/phqdisru9z43rbfxiawm.mp4"
         },
         {
           "name": "jens",
@@ -22,7 +22,7 @@
             "https://tailoredathlete.co.uk/cdn/shop/files/TA-WOMENS-28-04-23375461_1200x.jpg?v=1688654954"
           ],
           "productName": ["Skinny Jeans", "Bootcut Denim", "Straight-Leg Jeans"],
-          "video": "https://www.youtube.com/watch?v=57_IJmnkl5A"
+          "video":"https://res.cloudinary.com/de8yddexc/video/upload/v1737121469/SSL/czxdcpjidbm7rz9oayjs.mp4"
         },
         {
           "name": "nightware",
@@ -32,7 +32,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsxRqM6OA5dP-dTM9Bb1MzAmACVlx-2MMb3g5MCQotyIYSEIu99Fu2MD17eQh4kTCWWQ&usqp=CAU"
           ],
           "productName": ["Silk Pajamas", "Cotton Nightgown", "Flannel Sleepwear"],
-          "video": "/src/assets/video/Innter_garments.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121473/SSL/llwhgyu1yprseq0cki1g.mp4"
         },
         {
           "name": "footware",
@@ -42,7 +42,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzAcGj1VbSdfB4-oIAL8EGKN-LRFBfRMs_XA&s"
           ],
           "productName": ["Leather Boots", "Canvas Sneakers", "Ballet Flats"],
-          "video": "/src/assets/video/women_footware.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120450/SSL/mlchmsvbhcexbfqpuk2j.mp4"
         }
       ]
     },
@@ -58,7 +58,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJQWd3nC1tj49VE1CpPKmMr_XAz80UVT6kUw&s"
           ],
           "productName": ["Basic T-Shirt", "Polo Shirt", "Long Sleeve Shirt"],
-          "video": "video/Men_jackets.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120246/SSL/ld0mbzg4tzrwcfbt2tm4.mp4"
         },
         {
           "name": "jackets",
@@ -68,7 +68,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR72wVqmlQ1daCLiENXDxsy6JVDPgXO5nWJA&s"
           ],
           "productName": ["Leather Jacket", "Bomber Jacket", "Winter Coat"],
-          "video": "/Men_jackets.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120246/SSL/ld0mbzg4tzrwcfbt2tm4.mp4"
         },
         {
           "name": "nightware",
@@ -78,7 +78,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSije1ibh0rcqO53OAgLS7Zgxqti96KBLGMA&s"
           ],
           "productName": ["Cotton Pajamas", "Fleece Robe", "Sleep Shorts"],
-          "video": "Men_jackets.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120246/SSL/ld0mbzg4tzrwcfbt2tm4.mp4"
         },
         {
           "name": "footware",
@@ -88,7 +88,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwsw8hJ6yoTPPXdAbmupYyrBsHGNtdLznIgw&s"
           ],
           "productName": ["Running Shoes", "Loafers", "Boots"],
-          "video": "src/assets/video/men_shoose.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120436/SSL/o9tm6qtdgcvwvjq0tmqj.mp4"
         }
       ]
     },
@@ -104,7 +104,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTARQ5g1Mftj2HF19ePU4NyuHVN9TzADdi_kg&s"
           ],
           "productName": ["Graphic Tee", "Hoodie", "Polo Shirt"],
-          "video": "src/assets/video/Kids.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120243/SSL/n3gcwwqoabe50oepml6n.mp4"
         },
         {
           "name": "jackets",
@@ -114,7 +114,7 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8rIfiLZ3VlFpDnt3DG4Yapcfc5EvG4ClUg&s"
           ],
           "productName": ["Winter Jacket", "Denim Jacket", "Raincoat"],
-          "video": "src/assets/video/Kids.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120243/SSL/n3gcwwqoabe50oepml6n.mp4"
         },
         {
           "name": "underware",
@@ -124,7 +124,7 @@
             "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg"
           ],
           "productName": ["Cotton Briefs", "Thermal Underwear", "Boxers"],
-          "video": "src/assets/video/Kids.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120243/SSL/n3gcwwqoabe50oepml6n.mp4"
         },
         {
           "name": "footware",
@@ -134,64 +134,169 @@
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
           ],
           "productName": ["Sneakers", "Boots", "Sandals"],
-          "video": "src/assets/video/Kids.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120243/SSL/n3gcwwqoabe50oepml6n.mp4"
         }
       ]
     },
     {
       "id": 4,
-      "category": "Fashion-Accessories",
-      "images": [
-        "https://example.com/kids/tops1.jpg",
-        "https://example.com/kids/tops2.jpg",
-        "https://example.com/kids/tops3.jpg"
-      ],
+      "category": "fashion",
+      "subcategories": [
+        {
+          "name": "jewelry",
+          "images": [
+          "https://example.com/kids/tops1.jpg",
+          "https://example.com/kids/tops2.jpg",
+          "https://example.com/kids/tops3.jpg"
+          ],
       "productName": ["Sunglasses", "Bags", "Watches"],
-      "video": "src/assets/video/Valus.mp4"
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121197/SSL/cxtbnf2mtmdevj4i5exp.mp4"
+        },
+        {
+          "name": "cap",
+          "images": [
+            "https://5.imimg.com/data5/SELLER/Default/2023/1/SX/FN/TE/3310206/kids-winter-jacket-500x500.jpg",
+            "https://m.media-amazon.com/images/I/61ZloML6dSL._AC_UY1000_.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8rIfiLZ3VlFpDnt3DG4Yapcfc5EvG4ClUg&s"
+          ],
+          "productName": ["Winter Jacket", "Denim Jacket", "Raincoat"],
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120242/SSL/gkkahwcpf7faqlqf0mvg.mp4"
+        },
+        {
+          "name": "gloves",
+          "images": [
+            "https://i5.walmartimages.com/asr/b392d80f-8b8c-4e70-b8e5-e3fb180ac4df.1923191e26713447d322121246d3b7e8.jpeg",
+            "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg",
+            "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg"
+          ],
+          "productName": ["Cotton Briefs", "Thermal Underwear", "Boxers"],
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120143/SSL/hkvtvftdba8t1g4suvhg.mp4"
+        },
+        {
+          "name": "bagpack",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+          ],
+          "productName": ["Sneakers", "Boots", "Sandals"],
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120143/SSL/hkvtvftdba8t1g4suvhg.mp4"
+        },
+        {
+          "name": "kitchenapron",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+          ],
+          "productName": ["Sneakers", "Boots", "Sandals"],
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120143/SSL/hkvtvftdba8t1g4suvhg.mp4"
+        },
+        {
+          "name": "bag",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+          ],
+          "productName": ["Sneakers", "Boots", "Sandals"],
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120143/SSL/hkvtvftdba8t1g4suvhg.mp4"
+        },
+        {
+          "name": "luggage",
+          "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+          ],
+          "productName": ["Sneakers", "Boots", "Sandals"],
+          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120143/SSL/hkvtvftdba8t1g4suvhg.mp4"
+        }
+      ]
     },
     {
   "id": 5,
-  "category": "Home-Textile",
+  "category": "hometextile",
   "subcategories": [
     {
-      "name": "tops",
+      "name": "bedcover",
       "images": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tv2o-wSv_ViXR9I9tpnl7WrjxhYeMSs9lQ&s",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4AL3kqIIvEZIvBn8ZHDMavilgT7PtotzNg&s",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTARQ5g1Mftj2HF19ePU4NyuHVN9TzADdi_kg&s"
       ],
       "productName": ["Graphic Tee", "Hoodie", "Polo Shirt"],
-      "video": "src/assets/video/Kids.mp4"
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "jackets",
+      "name": "cushioncover",
       "images": [
         "https://5.imimg.com/data5/SELLER/Default/2023/1/SX/FN/TE/3310206/kids-winter-jacket-500x500.jpg",
         "https://m.media-amazon.com/images/I/61ZloML6dSL._AC_UY1000_.jpg",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc8rIfiLZ3VlFpDnt3DG4Yapcfc5EvG4ClUg&s"
       ],
       "productName": ["Winter Jacket", "Denim Jacket", "Raincoat"],
-      "video": "src/assets/video/Kids.mp4"
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "underware",
+      "name": "pillowcover",
       "images": [
         "https://i5.walmartimages.com/asr/b392d80f-8b8c-4e70-b8e5-e3fb180ac4df.1923191e26713447d322121246d3b7e8.jpeg",
         "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg",
         "https://m.media-amazon.com/images/I/61F0huw0a5L._AC_UY1000_.jpg"
       ],
       "productName": ["Cotton Briefs", "Thermal Underwear", "Boxers"],
-      "video": "src/assets/video/Kids.mp4"
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "Table Cloth",
+      "name": "beachtowel",
       "images": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
       ],
       "productName": ["Sneakers", "Boots", "Sandals"],
-      "video": "src/assets/video/Kids.mp4"
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
+    },
+    {
+      "name": "kitchentowel",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+      ],
+      "productName": ["Sneakers", "Boots", "Sandals"],
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
+    },
+    {
+      "name": "placemat",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+      ],
+      "productName": ["Sneakers", "Boots", "Sandals"],
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
+    },
+    {
+      "name": "tablerunner",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+      ],
+      "productName": ["Sneakers", "Boots", "Sandals"],
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
+    },
+    {
+      "name": "tablecloth",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
+      ],
+      "productName": ["Sneakers", "Boots", "Sandals"],
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     }
   ]
 },
@@ -207,7 +312,7 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTce_9m6wVbRwBWMpaRBb6CeULJO0spHzCZiA&s"
       ],
       "productName": ["Artisans", "Stock", "DRY Crafts"],
-      "video": "src/assets/video/Kids.mp4"
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
       "name": "Coconut shell",
@@ -217,7 +322,7 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLNSzUIaq2lKqyYqYYWUuRopyY6eH6JHD8g&s"
       ],
       "productName": ["Nalla", "Aquea Crab", "Shell Art"],
-      "video": "src/assets/video/Kids.mp4"
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
       "name": "Wooden Item",
@@ -227,7 +332,7 @@
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvTGz0xdy5yw1oy7DDOVBEjesH8nYnY9VMwQ&s"
       ],
       "productName": ["Gurmukhi", "Wooden Kitchen", "Nurture"],
-      "video": "src/assets/video/Kids.mp4"
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
       "name": "Household Item",
@@ -237,7 +342,7 @@
        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGx3Yr49YYt9i8GSq6Rehodh6xBFczidodYQ&s"
       ],
       "productName": ["Plastic Items", "Wrawing", "House Hold"],
-      "video": "src/assets/video/Kids.mp4"
+      "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     }
   ]
 }

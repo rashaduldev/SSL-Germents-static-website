@@ -1,5 +1,4 @@
 import { useRef, useState, useEffect } from 'react';
-import vedio1 from '../../assets/video/Why_choose_SSL_new.mp4';
 import value1 from '../../assets/image/fontImage/Valus1.png';
 import value2 from '../../assets/image/fontImage/Valus2.png';
 import value3 from '../../assets/image/fontImage/Valus3.png';
@@ -92,7 +91,7 @@ const BottomCarousel = () => {
     <div className="relative h-[610px] my-8">
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src={vedio1}
+        src="https://res.cloudinary.com/de8yddexc/video/upload/v1737121956/SSL/emexk3wpcs5pmj1ctev6.mp4"
         autoPlay
         loop
         muted
