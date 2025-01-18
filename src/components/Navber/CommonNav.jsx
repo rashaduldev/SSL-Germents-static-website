@@ -271,7 +271,7 @@ const CommonNav = () => {
         </button>
         <ul className="absolute left-0 top-full rounded-lg md:space-y-2 md:w-[100px] hidden group-hover:block min-w-32">
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/non textile/handy crafts'}>Handy crafts
+            <NavLink to={'/gallery/non textile/Handicraft'}>Handicraft
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">

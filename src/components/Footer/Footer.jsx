@@ -77,13 +77,6 @@ Jewel Richmond, Rajagiri Valley
                 Pakistan
             </span>
           </div>
-          <a className="link link-hover text-lg font-bold mt-5">Sisters concern</a>
-          <div className="flex gap-2 w-4/6">
-            <img className="h-8 w-8 rounded" src={semo} alt="" />
-            <span className="">
-            SIMO TEX
-            </span>
-          </div>
         </nav>
         <nav className="text-lg">
           <h6 className="font-bold md:mt-16">Quick View</h6>
@@ -103,6 +96,13 @@ Jewel Richmond, Rajagiri Valley
           <div className="flex gap-2 ">
             <FontAwesomeIcon icon={faCircleCheck} />
             <a className="link link-hover">R&D</a>
+          </div>
+          <a className="link link-hover text-lg font-bold mt-5">Sisters concern</a>
+          <div className="flex gap-2 w-full">
+            <img className="h-8 w-8 rounded" src={semo} alt="" />
+            <span className="">
+            SIMO TEX
+            </span>
           </div>
         </nav>
       </div>

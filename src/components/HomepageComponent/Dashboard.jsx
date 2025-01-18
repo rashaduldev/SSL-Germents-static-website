@@ -20,13 +20,13 @@ const ProgressBar = ({ label, percentage, color }) => {
 
 const Dashboard = () => {
     const progressData = [
-        { label: 'KINT', percentage: 30, color: 'bg-red-500' },
-        { label: 'FLAT KINT', percentage: 15, color: 'bg-blue-500' },
-        { label: 'WOVEN TOP', percentage: 18, color: 'bg-green-500' },
-        { label: 'WOVEN BOTTOM', percentage: 12, color: 'bg-yellow-500' },
-        { label: 'JACKET/OUTWEAR', percentage: 15, color: 'bg-gray-500' },
-        { label: 'HOME TEXTILE', percentage: 4, color: 'bg-indigo-500' },
-        { label: 'WORK-WEAR', percentage: 6, color: 'bg-teal-500' },
+        { label: 'Textile', percentage: 30, color: 'bg-[#0F2DED]' },
+        { label: 'Handicraft', percentage: 15, color: 'bg-blue-500' },
+        { label: 'Footwear', percentage: 18, color: 'bg-green-500' },
+        { label: 'Household', percentage: 12, color: 'bg-yellow-500' },
+        { label: 'Home textile', percentage: 15, color: 'bg-gray-500' },
+        { label: 'Home furniture', percentage: 4, color: 'bg-indigo-500' },
+        { label: 'Gloves', percentage: 6, color: 'bg-teal-500' },
     ];
 
     return (
@@ -49,7 +49,7 @@ const Dashboard = () => {
                     </div>
                     {/*  3*/}
                     <div className=" bg-gray-300 flex justify-center items-center">
-                   <h1 className='p-4 text-[12px] md:text-[18px]'>We do Textile, Footwear, Handicraft, Home textile, Home furniture Household, Gloves, Crockery, Coconut shell, kitchen item, Bag & Backpack, High tech sports, Toy etc.</h1>
+                   <h1 className='p-4 text-[12px] md:text-[18px]'>We do Textile, Handicraft, Footwear, Household, Home textile, Home furniture, Gloves, Crockery, Coconut shell, kitchen item, Bag & Backpack, High tech sports, Toy etc.  </h1>
                     </div>
                     {/* 4 */}
                     <div className="">

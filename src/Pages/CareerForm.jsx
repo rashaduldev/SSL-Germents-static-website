@@ -8,15 +8,15 @@ const CareerForm = () => {
         <Nav isVisible={true} />
         <SecondNavImg text="Career" img={career}/>
         <div className="flex flex-col items-center min-h-screen bg-white">
-      <div className=" max-w-5xl mt-20 text-3xl">
-        <p className="text-gray-700 mb-4 text-3xl">
-          The <span className="font-semibold text-black">Stylorium Sourcing Ltd.</span> has been in the buying house business since 2020. SSL has been recognized internationally as one of the safest and best companies to work for.
+      <div className=" max-w-6xl mt-20 text-3xl">
+        <p className="text-gray-700 mb-4 text-2xl">
+        <span className="font-bold logo-color">STYLORIUM SOURCING LTD.</span> has been in the buying house business since 2020. SSL has been recognized internationally as one of the safest and best company to work for.
         </p>
         <ul className="text-gray-700 text-left  text-2xl mb-6">
-          <li>• We believe in a work-life balance</li>
-          <li>• Excellent growth and advancement opportunities</li>
-          <li>• Home Most Night</li>
-          <li>• 6 days’ work week</li>
+          <li>•	A positive work environment will help you accomplish your goals and find happiness in your career.</li>
+          <li>•	We believe in a work-life balance.</li>
+          <li>•	Excellent growth and advancement opportunities.</li>
+          <li>•	5 days’ work week.</li>
         </ul>
       </div>
       <div className="bg-white p-6 w-full max-w-3xl">

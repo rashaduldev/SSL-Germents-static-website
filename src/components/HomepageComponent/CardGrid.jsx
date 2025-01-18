@@ -1,23 +1,23 @@
-import img1 from '../../assets/image/bgImage/image.JPG';
-import img2 from '../../assets/image/bgImage/image1.JPG';
-import img3 from '../../assets/image/bgImage/image2.JPG';
-import img4 from '../../assets/image/bgImage/image3.JPG';
-import img5 from '../../assets/image/bgImage/image4.JPG';
-import img6 from '../../assets/image/bgImage/image5.JPG';
-import img7 from '../../assets/image/bgImage/image6.JPG';
-import img8 from '../../assets/image/bgImage/image7.JPG';
-import img9 from '../../assets/image/bgImage/image8.JPG';
+import Highly from '../../assets/image/bgImage/9image/Highly.jpg';
+import Long from '../../assets/image/bgImage/9image/Long.jpg';
+import Material from '../../assets/image/bgImage/9image/Material.jpg';
+import Own from '../../assets/image/bgImage/9image/Own.jpg';
+import Real from '../../assets/image/bgImage/9image/Real.jpg';
+import SkilledFabric from '../../assets/image/bgImage/9image/Skilled-Fabric-Team.jpg';
+import Skilled from '../../assets/image/bgImage/9image/Skilled.jpg';
+import Special from '../../assets/image/bgImage/9image/Special.jpg';
+import Strong from '../../assets/image/bgImage/9image/Strong.jpg';
 const CardGrid = () => {
   const cards = [
-    { id: 1, name: 'Long History', description: 'Stylorium Sourcing attains many features which are unique in the export industry and contribute heavily on the success incl. the implementation of the latest ERP software.', imgSrc: img1 },
-    { id: 2, name: 'Strong CSR Team', description: 'We have a very talented CSR team who ensure Social Compliance as per local & customer CSR demands. Stylorium also has a digital platform for CSR from where customers can get exact factory information regarding any CSR issues.', imgSrc: img2 },
-    { id: 3, name: 'Own Design', description: 'Our design team presents new trends which are currently demanded. Samples of our designs are given to our customers. To support upcoming trends.', imgSrc: img3 },
-    { id: 4, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: img4 },
-    { id: 5, name: 'Special QA Team', description: 'To ensure quality, Stylorium has A highly trained Quality Assurance Team who ensure 100% quality as per customer standard.', imgSrc: img5 },
-    { id: 6, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: img6 },
-    { id: 7, name: 'Own Design', description: 'Focusing on key functionalities, Card 7 delivers specific benefits that make it a valuable choice for users.', imgSrc: img7 },
-    { id: 8, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: img8 },
-    { id: 9, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: img9 },
+    { id: 1, name: 'Long History', description: 'Stylorium Sourcing attains many features which are unique in the export industry and contribute heavily on the success incl. the implementation of the latest ERP software.', imgSrc: Long },
+    { id: 2, name: 'Strong CSR Team', description: 'We have a very talented CSR team who ensure Social Compliance as per local & customer CSR demands. Stylorium also has a digital platform for CSR from where customers can get exact factory information regarding any CSR issues.', imgSrc: Strong },
+    { id: 3, name: 'Own Design', description: 'Our design team presents new trends which are currently demanded. Samples of our designs are given to our customers. To support upcoming trends.', imgSrc: Own },
+    { id: 4, name: 'Material Sourcing', description: 'Stylorium Sourcing Ltd. has an own sourcing in India, China & Pakistan which supports customers through import fabric & trims.', imgSrc: Material },
+    { id: 5, name: 'Real Order Update', description: 'Stylorium Sourcing Ltd. follow latest technology is being used by buyer own portal where customers can get real-time order updates.', imgSrc: Real },
+    { id: 6, name: 'Highly Skilled Merchandising Team', description: 'Stylorium Sourcing Ltd. has specialists and experts in the textile & non textile merchandising team for different products and categories. Through the diversified team, customers can expect proper product support.', imgSrc: Highly },
+    { id: 7, name: 'Special QA Team', description: 'To ensure quality, SSL has A highly trained Quality Assurance Team who ensure 100% quality as per customer standard', imgSrc: Special },
+    { id: 8, name: 'Skilled Technical Team', description: 'Our team provides the customer with utmost quality and gives support throughout the whole process, from sampling until the shipment.', imgSrc: Skilled },
+    { id: 9, name: 'Skilled Fabric Team', description: 'Our expert Chinese technician ensures superior fabric quality, maintaining the highest standards of excellence in every detail.', imgSrc: SkilledFabric },
   ];
 
   return (

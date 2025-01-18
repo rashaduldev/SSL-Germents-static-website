@@ -10,9 +10,9 @@ const OurConcept = () => {
         <div className="relative text-center">
           <h2 className="text-5xl font-bold text-[#495598]">Our Concept</h2>
           <div className="absolute left-0 right-0 top-full flex items-center justify-center mt-4">
-            <div className="h-3 w-3 bg-red-600 rounded-full" />
-            <div className="h-1 w-56 bg-red-600" />
-            <div className="h-3 w-3 bg-red-600 rounded-full" />
+            <div className="h-3 w-3 bg-[#495598] rounded-full" />
+            <div className="h-1 w-56 bg-[#495598]" />
+            <div className="h-3 w-3 bg-[#495598] rounded-full" />
           </div>
         </div>
 
@@ -69,7 +69,7 @@ const OurConcept = () => {
           number="01"
           title="ETHICS"
           description="We are working constructively to influence proposed laws and regulations. Also follow corporate guidelines and rules of foreign principle."
-          iconColor="text-red-500"
+          iconColor="text-[#0F2DED]"
         />
         <Step
           position="left"
@@ -97,7 +97,7 @@ const OurConcept = () => {
           number="05"
           title="DESIGN"
           description="Our efforts for innovation and excellence enable us to earn great acclamation."
-          iconColor="text-orange-500"
+          iconColor="text-[#08c0df]"
         />
         <Step
           position="left"

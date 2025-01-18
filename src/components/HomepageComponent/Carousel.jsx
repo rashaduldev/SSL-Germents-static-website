@@ -1,13 +1,27 @@
 import { useState, useRef, useEffect } from "react";
-import Certificate1 from "../../assets/image/fontImage/Certificate1.png";
-import Certificate2 from "../../assets/image/fontImage/Certificate2.png";
-import Certificate3 from "../../assets/image/fontImage/Certificate3.png";
-import Certificate4 from "../../assets/image/fontImage/Certificate4.png";
-import Certificate5 from "../../assets/image/fontImage/Certificate5.png";
-import Certificate6 from "../../assets/image/fontImage/Certificate6.png";
-import Certificate7 from "../../assets/image/fontImage/Certificate7.png";
-import Certificate8 from "../../assets/image/fontImage/Certificate8.png";
-import Certificate9 from "../../assets/image/fontImage/Certificate9.png";
+import Certificate1 from "../../assets/image/fontImage/Certification/Certificate1.png";
+import Certificate2 from "../../assets/image/fontImage/Certification/Certificate2.png";
+import Certificate3 from "../../assets/image/fontImage/Certification/Certificate3.png";
+import Certificate4 from "../../assets/image/fontImage/Certification/Certificate4.png";
+import Certificate5 from "../../assets/image/fontImage/Certification/Certificate5.png";
+import Certificate6 from "../../assets/image/fontImage/Certification/Certificate6.png";
+import Certificate7 from "../../assets/image/fontImage/Certification/Certificate7.png";
+import Certificate8 from "../../assets/image/fontImage/Certification/Certificate8.png";
+import Certificate9 from "../../assets/image/fontImage/Certification/Certificate9.png";
+import Certificate10 from "../../assets/image/fontImage/Certification/Certificate10.png";
+import Certificate11 from "../../assets/image/fontImage/Certification/Certificate11.png";
+import Certificate12 from "../../assets/image/fontImage/Certification/Certificate12.png";
+import Certificate13 from "../../assets/image/fontImage/Certification/Certificate13.png";
+import Certificate14 from "../../assets/image/fontImage/Certification/Certificate14.png";
+import Certificate15 from "../../assets/image/fontImage/Certification/Certificate15.png";
+import Certificate16 from "../../assets/image/fontImage/Certification/Certificate16.png";
+import Certificate17 from "../../assets/image/fontImage/Certification/Certificate17.png";
+import Certificate18 from "../../assets/image/fontImage/Certification/Certificate18.png";
+import Certificate19 from "../../assets/image/fontImage/Certification/Certificate19.png";
+import Certificate20 from "../../assets/image/fontImage/Certification/Certificate20.png";
+import Certificate21 from "../../assets/image/fontImage/Certification/Certificate21.png";
+import Certificate22 from "../../assets/image/fontImage/Certification/Certificate22.png";
+import Certificate23 from "../../assets/image/fontImage/Certification/Certificate23.png";
 import carosulebg from "../../assets/image/carosulebg.png";
 
 const CardCarousel = () => {
@@ -27,6 +41,20 @@ const CardCarousel = () => {
     { id: 7, label: "Card 7", imgSrc: Certificate7 },
     { id: 8, label: "Card 8", imgSrc: Certificate8 },
     { id: 9, label: "Card 9", imgSrc: Certificate9 },
+    { id: 9, label: "Card 10", imgSrc: Certificate10 },
+    { id: 9, label: "Card 11", imgSrc: Certificate11 },
+    { id: 9, label: "Card 12", imgSrc: Certificate12 },
+    { id: 9, label: "Card 13", imgSrc: Certificate13 },
+    { id: 9, label: "Card 14", imgSrc: Certificate14 },
+    { id: 9, label: "Card 15", imgSrc: Certificate15 },
+    { id: 9, label: "Card 16", imgSrc: Certificate16 },
+    { id: 9, label: "Card 17", imgSrc: Certificate17 },
+    { id: 9, label: "Card 18", imgSrc: Certificate18 },
+    { id: 9, label: "Card 19", imgSrc: Certificate19 },
+    { id: 9, label: "Card 20", imgSrc: Certificate20 },
+    { id: 9, label: "Card 21", imgSrc: Certificate21 },
+    { id: 9, label: "Card 22", imgSrc: Certificate22 },
+    { id: 9, label: "Card 23", imgSrc: Certificate23 },
   ];
 
   const cardsToShow = 4;

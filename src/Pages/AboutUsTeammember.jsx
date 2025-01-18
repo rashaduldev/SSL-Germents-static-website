@@ -1,54 +1,49 @@
 import { useState, useEffect, useRef } from "react";
+import menImage from "../assets/image/aboutus/men.png";
+import womenImage from "../assets/image/aboutus/women.png";
 
 const testimonials = [
   {
-    name: "Matt Brandon",
-    role: "Freelancer",
+    name: "Yousuf Sarker",
+    role: "Managing Director",
     rating: 5,
-    text: "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
-    image: "https://via.placeholder.com/150",
+    text: " ",
+    image: menImage,
   },
   {
-    name: "John Larson",
-    role: "Entrepreneur",
+    name: "Probir Kanti Biswas",
+    role: "DGM",
     rating: 5,
-    text: "Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.",
-    image: "https://via.placeholder.com/150",
+    text: " ",
+    image: menImage,
   },
   {
-    name: "Saul Goodman",
-    role: "CEO & Founder",
+    name: "Shakil Miah",
+    role: "Merchandiser Team Leader",
     rating: 5,
-    text: "Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.",
-    image: "https://via.placeholder.com/150",
+    text: "“We weave innovation and passion into every product we create.”",
+    image: menImage,
   },
   {
-    name: "Sara Wilsson",
-    role: "Designer",
+    name: "Nasir Uddin",
+    role: "QC Team Leader",
     rating: 4,
-    text: "Amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.",
-    image: "https://via.placeholder.com/150",
+    text: "“Quality is never an accident; it is always the result of intelligent effort.”",
+    image: menImage,
   },
   {
-    name: "Jena Karlis",
-    role: "Store Owner",
+    name: "Jasmin Islam (Navy)",
+    role: "Designer",
     rating: 5,
-    text: "Enim minim velit minim dolor duis veniam ipsum anim magna sunt elit.",
-    image: "https://via.placeholder.com/150",
+    text: "“Great design happens when talent meets trust and collaboration.”",
+    image: womenImage,
   },
   {
-    name: "Walter White",
-    role: "Chemist",
+    name: "Mst. Hanan Mim",
+    role: "Compliance Auditor",
     rating: 5,
-    text: "Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export.",
-    image: "https://via.placeholder.com/150",
-  },
-  {
-    name: "Tony Stark",
-    role: "Engineer",
-    rating: 5,
-    text: "Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam.",
-    image: "https://via.placeholder.com/150",
+    text: " ",
+    image: womenImage,
   },
 ];
 
@@ -137,19 +132,6 @@ const TestimonialSlider = () => {
               <p className="text-gray-700 text-sm">{testimonial.text}</p>
             </div>
           </div>
-        ))}
-      </div>
-
-      {/* Navigation Dots */}
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex gap-2">
-        {Array.from({ length: testimonials.length }, (_, index) => (
-          <button
-            key={index}
-            className={`w-3 h-3 rounded-full ${
-              currentIndex === index ? "bg-blue-500" : "bg-gray-300"
-            }`}
-            onClick={() => setCurrentIndex(index)}
-          ></button>
         ))}
       </div>
     </div>

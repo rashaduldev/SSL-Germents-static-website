@@ -13,8 +13,8 @@ const CompliancePage = () => {
       <SecondNavImg text="COMPLIANCE" img={navBgimg}/>
       <div className="">
         <div className="">
-          <p className="container mx-auto py-10 text-2xl md:text-[1.75rem] tracking-widers gruppo-regular">
-          Stylorium Sourcing Ltd uses the Plan, Do, Act and Check management method for the compliance. Which allows for efficiency and productivity.
+          <p className="container mx-auto py-10 text-2xl">
+          <span className="logo-color font-bold">STYLORIUM SOURCING LTD.</span> uses the Plan, Do, Act and Check management method for the compliance. Which allows for efficiency and productivity. 
           </p>
         </div>
         <div className="container mx-auto my-5">
