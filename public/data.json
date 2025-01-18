@@ -302,10 +302,10 @@
 },
 {
   "id": 6,
-  "category": "Non Textile",
+  "category": "NonTextile",
   "subcategories": [
     {
-      "name": "Handicraft",
+      "name": "handicraft",
       "images": [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSRtapdlj6c6UmKEozK9TkLvMmpiB9FMyi4ZTVuUxT2Ijcot4Gx4RpaEHXF-4UHGikU7w&usqp=CAU",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfSRNdxMrMOK_EHVET5SWgM11xPDho-gSS2UBu6HxRABVfq7rIadmiY1jSFPXpo5t2oTw&usqp=CAU",
@@ -315,7 +315,7 @@
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "Coconut shell",
+      "name": "coconutshell",
       "images": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk9qbWj1blaYF5HkPUQJ6eCvaR_2wmZqKZ8A&s",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxSQer9W-dlLTHIQ5A2oDZPnLlGbRUjLDBCw&s",
@@ -325,7 +325,7 @@
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "Wooden Item",
+      "name": "woodenitem",
       "images": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTb8nyNdez9M6bYCOSkwqqCY6jSqsQ3qYsTQ&s",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7It2QIaIcTHbEH2033ao8olVmAWH3WE_eIA&s",
@@ -335,7 +335,7 @@
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "Household Item",
+      "name": "householditem",
       "images": [
        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjKAvPMFDNAFdPECkraY-L9vnPXnkv024HgQ&s",
        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwW9iki9LHEppUtcVIIIkSjet5JRIvdGZg_Q&s",

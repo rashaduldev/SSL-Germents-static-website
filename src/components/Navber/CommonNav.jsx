@@ -271,19 +271,19 @@ const CommonNav = () => {
         </button>
         <ul className="absolute left-0 top-full rounded-lg md:space-y-2 md:w-[100px] hidden group-hover:block min-w-32">
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/non textile/Handicraft'}>Handicraft
+            <NavLink to={'/gallery/nontextile/handicraft'}>Handicraft
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/non textile/Coconut shell'}>Coconut shell
+            <NavLink to={'/gallery/nontextile/coconutshell'}>Coconut shell
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/non textile/Wooden Item'}>Wooden Item
+            <NavLink to={'/gallery/nontextile/woodenitem'}>Wooden Item
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/non textile/Household Item'}>Household Item
+            <NavLink to={'/gallery/nontextile/householditem'}>Household Item
             </NavLink>
           </li>
         </ul>
