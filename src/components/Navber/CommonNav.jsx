@@ -121,7 +121,7 @@ const CommonNav = () => {
     <IoIosArrowDown className="text-lg" />
   </button>
   {/* Dropdown Menu for PRODUCT GALLERY */}
-  <div className="absolute -left-64 md:-left-[350px] mt-0 hidden group-hover:flex justify-center bg-white pt-5 w-[800px] md:w-[820px] h-[490px] shadow-md rounded-lg z-50 pl-0">
+  <div className="absolute -left-64 md:-left-[350px] mt-0 hidden group-hover:flex justify-center bg-white pt-5 w-[800px] md:w-[830px] h-[100vh] shadow-md rounded-lg z-50 pl-0 overflow-y-auto">
     <ul className="flex justify-between items-start gap-3 md:gap-20 px-0 py-4 text-black">
       {/* Women Category with Subitems */}
       <li className="relative group w-full">
@@ -271,11 +271,39 @@ const CommonNav = () => {
         </button>
         <ul className="absolute left-0 top-full rounded-lg md:space-y-2 md:w-[100px] hidden group-hover:block min-w-32">
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/nontextile/handicraft'}>Handicraft
+            <NavLink to={'/gallery/nontextile/basket'}>Basket
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:p-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/nontextile/coconutshell'}>Coconut shell
+            <NavLink to={'/gallery/nontextile/placemat'}>Place Mat
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/coaster'}>Coaster
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/rug'}>Rug
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/doormat'}>Doormat
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/straw&plasticbasket'}>Straw & Plastic Basket
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/recyleplastic&paper'}>Recycle Plastic & Paper
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/tablerunner'}>Table Runner
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/coconutshell'}>Coconut Shell
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
@@ -283,7 +311,19 @@ const CommonNav = () => {
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/betelnutshell'}>Betel Nut Shell
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/stationery'}>Stationery
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
             <NavLink to={'/gallery/nontextile/householditem'}>Household Item
+            </NavLink>
+          </li>
+          <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
+            <NavLink to={'/gallery/nontextile/toy'}>Toy
             </NavLink>
           </li>
         </ul>
