@@ -7,8 +7,10 @@ const CategoryDisplay = () => {
   const [images, setImages] = useState(null);
   const [videoSrc, setVideoSrc] = useState(null); // State for dynamic video source
   const [productNames, setProductNames] = useState([]); // State for product names
+  const [loading, setLoading] = useState(true); // State for loading
 
   useEffect(() => {
+    setLoading(true); // Start loading
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
@@ -45,7 +47,8 @@ const CategoryDisplay = () => {
           setProductNames([]); // Clear product names if no category is found
         }
       })
-      .catch((error) => console.error("Error fetching data:", error));
+      .catch((error) => console.error("Error fetching data:", error))
+      .finally(() => setLoading(false)); // Stop loading
   }, [category, subcategory]);
 
   // Log the video URL to console for debugging
@@ -54,6 +57,17 @@ const CategoryDisplay = () => {
       console.log("Video URL:", `${videoSrc}`); // Log the local video URL
     }
   }, [videoSrc]);
+
+  if (loading) {
+    return (
+      <div>
+        <Nav isVisible={true} />
+        <p className="mt-36 container mx-auto text-center text-3xl font-bold">
+          Loading...
+        </p>
+      </div>
+    );
+  }
 
   if (!images) {
     return (
@@ -75,46 +89,44 @@ const CategoryDisplay = () => {
             <div className="w-full h-[400px]">
               {/* Check if the video source is a Google Drive link */}
               {videoSrc.includes("drive.google.com") ? (
-  <iframe
-    key={videoSrc} // Add key prop to force re-render on videoSrc change
-    width="100%"
-    height="100%"
-    src={`https://drive.google.com/file/d/${videoSrc.split("/d/")[1].split("/")[0]}/preview?autoplay=1&controls=0`}
-    frameBorder="0"
-    allow="autoplay; encrypted-media"
-    allowFullScreen
-    title="Google Drive Video"
-  ></iframe>
-) : videoSrc.includes("youtube.com") ? (
-  <iframe
-    key={videoSrc} // Add key prop to force re-render on videoSrc change
-    width="100%"
-    height="100%"
-    src={`https://www.youtube.com/embed/${videoSrc.split("v=")[1]}?autoplay=1&controls=0&loop=1&playlist=${videoSrc.split("v=")[1]}`}
-    frameBorder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-    title="YouTube Video"
-  ></iframe>
-) : (
-  <video
-    key={videoSrc} // Add key prop to force re-render on videoSrc change
-    className="w-full h-full object-cover"
-    autoPlay
-    muted
-    loop
-    preload="auto"
-    poster="/assets/images/placeholder.jpg" // Optional
-  >
-    <source
-      src={`${videoSrc}`} // Use the dynamic video path from JSON
-      type="video/mp4"
-    />
-    Your browser does not support the video tag.
-  </video>
-)}
-
-
+                <iframe
+                  key={videoSrc} // Add key prop to force re-render on videoSrc change
+                  width="100%"
+                  height="100%"
+                  src={`https://drive.google.com/file/d/${videoSrc.split("/d/")[1].split("/")[0]}/preview?autoplay=1&controls=0`}
+                  frameBorder="0"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  title="Google Drive Video"
+                ></iframe>
+              ) : videoSrc.includes("youtube.com") ? (
+                <iframe
+                  key={videoSrc} // Add key prop to force re-render on videoSrc change
+                  width="100%"
+                  height="100%"
+                  src={`https://www.youtube.com/embed/${videoSrc.split("v=")[1]}?autoplay=1&controls=0&loop=1&playlist=${videoSrc.split("v=")[1]}`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  title="YouTube Video"
+                ></iframe>
+              ) : (
+                <video
+                  key={videoSrc} // Add key prop to force re-render on videoSrc change
+                  className="w-full h-full object-cover"
+                  autoPlay
+                  muted
+                  loop
+                  preload="auto"
+                  poster="/assets/images/placeholder.jpg" // Optional
+                >
+                  <source
+                    src={`${videoSrc}`} // Use the dynamic video path from JSON
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              )}
             </div>
           )}
         </div>
