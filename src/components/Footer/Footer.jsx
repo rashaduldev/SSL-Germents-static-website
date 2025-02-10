@@ -8,9 +8,7 @@ import {
   faCircleCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
-import { FaDribbbleSquare, FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { TiSocialLastFmCircular } from "react-icons/ti";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logo from '../../assets/image/fontImage/headerImage.JPG';
 import semo from '../../assets/image/semo.jpeg';
 
@@ -107,12 +105,15 @@ Jewel Richmond, Rajagiri Valley
         </nav>
       </div>
       <div className="flex justify-center gap-5 border-base-300 px-10 py-4 text-3xl">
-      <FaFacebook />
-      <AiFillTwitterCircle />
-      <FaLinkedin />
-      <FaDribbbleSquare />
-      <TiSocialLastFmCircular />
-      <FaYoutube />
+      <a href="https://www.facebook.com/StyloriumBD" target="_blank" rel="noopener noreferrer">
+    <FaFacebook />
+  </a>
+  <a href="https://www.linkedin.com/company/stylorium-sourcing-limited" target="_blank" rel="noopener noreferrer">
+    <FaLinkedin />
+  </a>
+  <a href="https://www.instagram.com/stylorium_sourcing_ltd" target="_blank" rel="noopener noreferrer">
+  <FaInstagram />
+  </a>
       </div>
       <footer className="footer footer-center bg-base-300 text-base-content p-4">
         <aside>
