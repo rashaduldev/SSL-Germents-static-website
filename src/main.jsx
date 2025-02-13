@@ -24,6 +24,7 @@ import CompliancePage from './Pages/Compliance';
 import QualityPage from './Pages/QualityPage';
 import CareerForm from './Pages/CareerForm';
 import StrengthSection from './Pages/StrengthSection';
+import Analytics from './components/Analytics/Analytics';
 
 
 const router = createBrowserRouter([
@@ -107,5 +108,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      <RouterProvider router={router} />
+     <Analytics/>
   </StrictMode>,
 )
