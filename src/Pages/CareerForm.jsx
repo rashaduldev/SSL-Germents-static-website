@@ -10,7 +10,7 @@ const CareerForm = () => {
         <div className="flex flex-col items-center min-h-screen bg-white">
       <div className=" max-w-6xl mt-20 text-3xl">
         <p className="text-gray-700 mb-4 text-2xl">
-        <span className="font-bold logo-color">STYLORIUM SOURCING LTD.</span> has been in the buying house business since 2020. SSL has been recognized internationally as one of the safest and best company to work for.
+        <span className="font-bold logo-color">STYLORIUM SOURCING LTD.</span>It has been in the buying house business since 2020. SSL has been recognized internationally as one of the safest and best company to work for.
         </p>
         <ul className="text-gray-700 text-left  text-2xl mb-6">
           <li>•	A positive work environment will help you accomplish your goals and find happiness in your career.</li>
@@ -25,7 +25,7 @@ const CareerForm = () => {
           <div>
             <input
               type="text"
-              placeholder="FULL NAME"
+              placeholder="Full name"
               className="w-full border border-orange-300 bg-orange-100 text-black rounded-md px-4 py-2 text-sm placeholder-black focus:outline-none focus:ring-2 focus:ring-orange-400"
               required
             />
@@ -33,7 +33,7 @@ const CareerForm = () => {
           <div>
             <input
               type="email"
-              placeholder="EMAIL"
+              placeholder="Email"
               className="w-full border border-orange-300 bg-orange-100 text-black rounded-md px-4 py-2 text-sm placeholder-black focus:outline-none focus:ring-2 focus:ring-orange-400"
               required
             />
@@ -41,7 +41,7 @@ const CareerForm = () => {
           <div>
             <input
               type="tel"
-              placeholder="PHONE"
+              placeholder="Phone"
               className="w-full border border-orange-300 bg-orange-100 text-black rounded-md px-4 py-2 text-sm placeholder-black focus:outline-none focus:ring-2 focus:ring-orange-400"
               required
             />
@@ -49,14 +49,14 @@ const CareerForm = () => {
           <div>
             <input
               type="text"
-              placeholder="WHAT POSITION ARE YOU APPLYING FOR?"
+              placeholder="Which position are you applying for?"
               className="w-full border border-orange-300 bg-orange-100 text-black rounded-md px-4 py-2 text-sm placeholder-black focus:outline-none focus:ring-2 focus:ring-orange-400"
               required
             />
           </div>
           <div>
             <textarea
-              placeholder="COVER LETTER"
+              placeholder="Cover letter"
               rows="4"
               className="w-full border border-orange-300 bg-orange-100 text-black rounded-md px-4 py-2 text-sm placeholder-black focus:outline-none focus:ring-2 focus:ring-orange-400"
             ></textarea>
@@ -69,7 +69,7 @@ const CareerForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-[#4C578D] text-white font-semibold rounded-md py-4 text-sm hover:bg-green-600"
+            className="w-full bg-[#4C578D] text-white font-semibold rounded-md py-4 text-sm hover:bg-[#344183]"
           >
             SEND
           </button>
