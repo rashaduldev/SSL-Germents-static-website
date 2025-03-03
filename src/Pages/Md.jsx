@@ -53,7 +53,7 @@ const Md = () => {
         {/* Signature Section */}
         <div className="mt-8">
           <img className="border-b border-black" src={signature} alt="Signature" />
-          <h3 className="font-bold ml-0 text-[18px]">Yousuf Serker</h3>
+          <h3 className="font-bold ml-0 text-[18px]">Yousuf Sarker</h3>
         </div>
       </div>
 
