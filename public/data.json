@@ -497,7 +497,7 @@
       "category": "Kids",
       "subcategories": [
         {
-          "name": "sweat shirt",
+          "name": "sweatshirt",
           "images": [
             "https://res.cloudinary.com/dph7pee1n/image/upload/v1740388387/Sweat_shirt-001_bng7q7.jpg"
             
@@ -506,7 +506,7 @@
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120243/SSL/n3gcwwqoabe50oepml6n.mp4"
         },
         {
-          "name": "Hoodie",
+          "name": "hoodie",
           "images": [
             "https://res.cloudinary.com/dph7pee1n/image/upload/v1740387904/Hoodie-001_ni1pu5.jpg",
             "https://res.cloudinary.com/dph7pee1n/image/upload/v1740387910/Hoodie-002_gd1ziu.jpg",
@@ -519,7 +519,7 @@
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120243/SSL/n3gcwwqoabe50oepml6n.mp4"
         },
         {
-          "name": "Shorts",
+          "name": "shorts",
           "images": [
             "https://res.cloudinary.com/dph7pee1n/image/upload/v1740386625/Screenshot_2024-07-09_142521_tcpjpu.png",
             "https://res.cloudinary.com/dph7pee1n/image/upload/v1740386626/Screenshot_2024-07-09_142642_nbrgja.png",
@@ -857,7 +857,7 @@
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "potholder or oven met",
+      "name": "potholderorovenmet",
       "images": [
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1740223438/Screenshot_2024-05-26_102238_v7u7z1.png",
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1740223439/Screenshot_2024-05-26_102245_id4yz3.png",
@@ -923,7 +923,7 @@
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "Kitchen apron",
+      "name": "kitchenapron",
       "images": [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1740291465/Screenshot_2024-05-26_110745_eplk4g.png",
@@ -941,7 +941,7 @@
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "Curtain",
+      "name": "curtain",
       "images": [
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1740297692/Curtain-001_kwjxek.png",
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1740297693/Curtain-003_zhvbkm.png",

@@ -102,7 +102,7 @@ const CardCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 2000); // Change slide every 3 seconds
+    }, 2000);
 
     return () => clearInterval(interval); // Clear interval on component unmount
   }, []);

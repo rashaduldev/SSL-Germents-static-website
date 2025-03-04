@@ -3,55 +3,52 @@ import { useParams } from "react-router-dom";
 import Nav from "../components/Navber/Nav";
 
 const CategoryDisplay = () => {
-  const { category, subcategory } = useParams(); // Retrieve category and subcategory from URL
+  const { category, subcategory } = useParams();
   const [images, setImages] = useState(null);
-  const [videoSrc, setVideoSrc] = useState(null); // State for dynamic video source
-  const [productNames, setProductNames] = useState([]); // State for product names
+  const [videoSrc, setVideoSrc] = useState(null);
+  const [productNames, setProductNames] = useState([]);
+  const [selectedImage, setSelectedImage] = useState(null); // State for modal image
 
   useEffect(() => {
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
-        // Find the category
         const selectedCategory = data.categories.find(
           (cat) => cat.category.toLowerCase() === category.toLowerCase()
         );
 
         if (selectedCategory) {
           if (subcategory) {
-            // Handle subcategories if available
             const selectedSubcategory = selectedCategory.subcategories?.find(
               (subcat) => subcat.name.toLowerCase() === subcategory.toLowerCase()
             );
 
             if (selectedSubcategory) {
               setImages(selectedSubcategory.images);
-              setVideoSrc(selectedSubcategory.video || null); // Use the video URL from JSON
-              setProductNames(selectedSubcategory.productName); // Set the product names dynamically
+              setVideoSrc(selectedSubcategory.video || null);
+              setProductNames(selectedSubcategory.productName);
             } else {
               setImages(null);
               setVideoSrc(null);
-              setProductNames([]); // Clear product names if no subcategory is found
+              setProductNames([]);
             }
           } else {
-            // If no subcategory, set category-level video and images
             setImages(selectedCategory.images || null);
-            setVideoSrc(selectedCategory.video || null); // Use the category video URL from JSON
-            setProductNames([]); // Clear product names if no subcategory
+            setVideoSrc(selectedCategory.video || null);
+            setProductNames([]);
           }
         } else {
           setImages(null);
           setVideoSrc(null);
-          setProductNames([]); // Clear product names if no category is found
+          setProductNames([]);
         }
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, [category, subcategory]);
 
-  // Log the video URL to console for debugging
   useEffect(() => {
     if (videoSrc) {
-      console.log("Video URL:", `${videoSrc}`); // Log the local video URL
+      console.log("Video URL:", `${videoSrc}`);
     }
   }, [videoSrc]);
 
@@ -73,48 +70,21 @@ const CategoryDisplay = () => {
         <div className="container mx-auto">
           {videoSrc && (
             <div className="w-full h-[400px]">
-              {/* Check if the video source is a Google Drive link */}
-              {videoSrc.includes("drive.google.com") ? (
-  <iframe
-    key={videoSrc} // Add key prop to force re-render on videoSrc change
-    width="100%"
-    height="100%"
-    src={`https://drive.google.com/file/d/${videoSrc.split("/d/")[1].split("/")[0]}/preview?autoplay=1&controls=0`}
-    frameBorder="0"
-    allow="autoplay; encrypted-media"
-    allowFullScreen
-    title="Google Drive Video"
-  ></iframe>
-) : videoSrc.includes("youtube.com") ? (
-  <iframe
-    key={videoSrc} // Add key prop to force re-render on videoSrc change
-    width="100%"
-    height="100%"
-    src={`https://www.youtube.com/embed/${videoSrc.split("v=")[1]}?autoplay=1&controls=0&loop=1&playlist=${videoSrc.split("v=")[1]}`}
-    frameBorder="0"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-    title="YouTube Video"
-  ></iframe>
-) : (
-  <video
-    key={videoSrc} // Add key prop to force re-render on videoSrc change
-    className="w-full h-full object-cover"
-    autoPlay
-    muted
-    loop
-    preload="auto"
-    poster="/assets/images/placeholder.jpg" // Optional
-  >
-    <source
-      src={`${videoSrc}`} // Use the dynamic video path from JSON
-      type="video/mp4"
-    />
-    Your browser does not support the video tag.
-  </video>
-)}
-
-
+              <video
+                key={videoSrc}
+                className="w-full h-full object-cover"
+                autoPlay
+                muted
+                loop
+                preload="auto"
+                poster="/assets/images/placeholder.jpg"
+              >
+                <source
+                  src={`${videoSrc}`}
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
             </div>
           )}
         </div>
@@ -123,12 +93,14 @@ const CategoryDisplay = () => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10 container mx-auto gap-10">
           {images.map((image, index) => (
-            <div key={index} className="card bg-base-100 border">
+            <div key={index} className="card bg-base-100 border cursor-pointer" onClick={() => setSelectedImage(image)}>
               <figure>
                 <img
                   src={image}
                   alt={`${category} ${index + 1}`}
-                  className="w-full h-[450px]"
+                  className={`w-full ${
+                    ["men", "women", "kids"].includes(category.toLowerCase()) ? "w-full h-[250px] mx-auto" : "h-[450px]"
+                  }`}
                 />
               </figure>
               <div className="card-body">
@@ -140,6 +112,21 @@ const CategoryDisplay = () => {
           ))}
         </div>
       </div>
+
+      {/* Image Modal */}
+      {selectedImage && (
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
+          <div className="relative bg-white p-5 rounded-lg shadow-lg max-w-3xl mx-auto">
+            <button
+              className="absolute top-2 right-2 text-3xl font-bold text-red-600"
+              onClick={() => setSelectedImage(null)}
+            >
+              &times;
+            </button>
+            <img src={selectedImage} alt="Selected" className="w-[350px] h-[350px]" />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
