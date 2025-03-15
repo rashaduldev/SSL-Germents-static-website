@@ -11,10 +11,10 @@ const Faq = () => {
 
   const faqs = [
     { id: 1, question: 'What kind of business organization is SSL?', answer: 'Exporter, Trader, Sourcer & Manufacturer.' },
-    { id: 2, question: 'Our detailed product list of SSL?', answer: 'Textile, Footwear, Handicraft, Home textile, Household, Gloves, Bag & Backpack, Toy Home Textile, Garden Item, Kitchen Item & Jewelry etc.' },
+    { id: 2, question: 'Our detailed product list of SSL?', answer: 'Textile, Footwear, Handicraft, Home textile, Household, Gloves, Bags & Backpack, Toy, Home Textile, Garden Item, Kitchen Item & Jewelry etc. ' },
     { id: 3, question: 'How can I contact SSL?', answer: ' info@stylorium.net/yousuf.sarker@stylorium.net Mobile: +88 01730595698.' },
     { id: 4, question: 'What type of client can approach SSL?', answer: 'Retailer, Wholesaler, Importer & Distributor.' },
-    { id: 5, question: 'What is the shipment lead time after the order placement?', answer: 'If it is local material then we take 30-90 Days, OR it is import materials then need 900-120 days.' },
+    { id: 5, question: 'What is the shipment lead time after the order placement?', answer: 'If it is local material then we take 30-90 Days, OR it is import materials then need 90-120 days.' },
     { id: 6, question: 'What is the payment term?', answer: 'LC, TT, DP, CAD, DAP, CASH.' },
     { id: 7, question: 'What the minimum order quantity (MOQ) per style/color?', answer: '500 pices per color' },
     { id: 8, question: 'Why would you consider SSL as your business partner?', answer: 'For comparative price with on time delivery.' },

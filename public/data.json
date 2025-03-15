@@ -140,8 +140,6 @@
         {
           "name": "tshirt",
           "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Wktc9nQYwDk7kal471f-Srcq9a4Un_7l5A&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJQWd3nC1tj49VE1CpPKmMr_XAz80UVT6kUw&s",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739765328/T-shirt-009_eyowjt.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739765457/T-shirt-008_mfrpk3.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739765554/T-shirt-007_rlt2xm.jpg",
@@ -162,7 +160,7 @@
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739766978/T-shirt019_wnlhql.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739767071/Vest-010_f0hgxw.jpg"
           ],
-          "productName": ["Basic T-Shirt", "Long Sleeve Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "vest"],
+          "productName": ["T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "T-Shirt", "vest"],
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120246/SSL/ld0mbzg4tzrwcfbt2tm4.mp4"
         },
         {
@@ -178,7 +176,6 @@
         {
           "name": "sweatshirt",
           "images": [
-			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739770502/Sweat_shirt-002_x2uogf.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739770650/Sweat_shirt-003_fo2q2a.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739771957/Sweat_shirt-004_uwkaln.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739772141/Sweat_shirt-005_ahzpuf.jpg",
@@ -195,7 +192,7 @@
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739773243/Sweat_shirt-016_ed5omi.png",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739773300/Sweat_shirt-017_q6ye5h.png"
           ],
-          "productName": ["sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt"],
+          "productName": ["sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt", "sweatshirt"],
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120246/SSL/ld0mbzg4tzrwcfbt2tm4.mp4"
         },
 		        {
@@ -304,10 +301,9 @@
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739780078/Swiming_shorts-005_cmwokz.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739781564/Swiming_shorts-006_wqt9lo.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739781688/Swiming_shorts-008_rz9eky.jpg",
-			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739781845/Swiming_shorts-009_cedv3f.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739781845/Swiming_shorts-009_cedv3f.jpg"
           ],
-          "productName": ["Shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "Shorts", "shorts", "shorts", "shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts"],
+          "productName": ["Shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "shorts", "Shorts", "shorts", "shorts", "shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts", "Shorts"],
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120246/SSL/ld0mbzg4tzrwcfbt2tm4.mp4"
         },
         {
@@ -331,10 +327,9 @@
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739769077/Sweater-009_hftxzf.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739769077/Sweater-009_hftxzf.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739769199/Sweater-014_krdbyp.jpg",
-			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739769269/Sweater-015_dkeb3p.jpg",
-			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739769324/Sweater-017_ant4on.jpg"
+			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739769269/Sweater-015_dkeb3p.jpg"
           ],
-          "productName": ["sweater", "sweater", "cardigan", "sweater", "sweater", "cardigan", "sweater", "sweater", "sweater", "cardigan", "sweater", "sweater"],
+          "productName": ["sweater", "sweater", "cardigan", "sweater", "sweater", "cardigan", "sweater", "sweater", "sweater", "cardigan", "sweater"],
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120246/SSL/ld0mbzg4tzrwcfbt2tm4.mp4"
         },
         {
@@ -737,16 +732,6 @@
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1740380769/cz_sad5jz.jpg"
           ],
           "productName": ["Hat", "Hat", "Hat", "Hat", "Hat", "Hat", "Hat", "Hat", "Hat", "Hat", "Hat", "Hat", "Hat", "Hat"],
-          "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120143/SSL/hkvtvftdba8t1g4suvhg.mp4"
-        },
-        {
-          "name": "kitchenapron",
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDcSf7Wa02OvmRMwC2GlhyTwFwCGPXFZpsw&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CdxObnGq4N-UXsE93s3zQIpIkRr_3K1s_g&s",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcMR26pRHRbQYISgzg1ShA9-bn3Ub54C2hA&s"
-          ],
-          "productName": ["Sneakers", "Boots", "Sandals"],
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120143/SSL/hkvtvftdba8t1g4suvhg.mp4"
         },
         {

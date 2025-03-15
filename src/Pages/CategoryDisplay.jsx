@@ -7,9 +7,11 @@ const CategoryDisplay = () => {
   const [images, setImages] = useState(null);
   const [videoSrc, setVideoSrc] = useState(null);
   const [productNames, setProductNames] = useState([]);
-  const [selectedImage, setSelectedImage] = useState(null); // State for modal image
+  const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
+    console.log("Category:", category);
+    
     fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
@@ -46,12 +48,6 @@ const CategoryDisplay = () => {
       .catch((error) => console.error("Error fetching data:", error));
   }, [category, subcategory]);
 
-  useEffect(() => {
-    if (videoSrc) {
-      console.log("Video URL:", `${videoSrc}`);
-    }
-  }, [videoSrc]);
-
   if (!images) {
     return (
       <div>
@@ -62,6 +58,16 @@ const CategoryDisplay = () => {
       </div>
     );
   }
+
+  // URLs where images should have height 250px
+  const urlsWith250pxHeight = [
+    "https://stylorium.net/gallery/women/footware",
+    "https://stylorium.net/gallery/men/footware",
+    "https://stylorium.net/gallery/kids/footware",
+    "http://localhost:5173/gallery/women/footware",
+    "http://localhost:5173/gallery/men/footware",
+    "http://localhost:5173/gallery/kids/footware",
+  ];
 
   return (
     <div>
@@ -79,37 +85,39 @@ const CategoryDisplay = () => {
                 preload="auto"
                 poster="/assets/images/placeholder.jpg"
               >
-                <source
-                  src={`${videoSrc}`}
-                  type="video/mp4"
-                />
+                <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
           )}
         </div>
+
         <h1 className="text-3xl pl-5 md:py-8 mt-8 md:text-5xl font-bold pt-[10px] uppercase container mx-auto">
           {subcategory ? `${category} - ${subcategory}` : `${category}`}
         </h1>
+
+        {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-10 container mx-auto gap-10">
-          {images.map((image, index) => (
-            <div key={index} className="card bg-base-100 border cursor-pointer" onClick={() => setSelectedImage(image)}>
-              <figure>
-                <img
-                  src={image}
-                  alt={`${category} ${index + 1}`}
-                  className={`w-full ${
-                    ["men", "women", "kids"].includes(category.toLowerCase()) ? "w-full h-[250px] mx-auto" : "h-[450px]"
-                  }`}
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title font-bold">
-                  {productNames.length > 0 ? productNames[index] : "Name of products"}
-                </h2>
+          {images.map((image, index) => {
+            const shouldUse250pxHeight = urlsWith250pxHeight.includes(window.location.href);
+
+            return (
+              <div key={index} className="card bg-base-100 border cursor-pointer" onClick={() => setSelectedImage(image)}>
+                <figure>
+                  <img
+                    src={image}
+                    alt={`${category} ${index + 1}`}
+                    className={`w-full ${shouldUse250pxHeight ? "h-[250px]" : "h-[450px]"} object-cover`}
+                  />
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title font-bold">
+                    {productNames.length > 0 ? productNames[index] : "Name of products"}
+                  </h2>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
@@ -123,7 +131,7 @@ const CategoryDisplay = () => {
             >
               &times;
             </button>
-            <img src={selectedImage} alt="Selected" className="w-[350px] h-[350px]" />
+            <img src={selectedImage} alt="Selected" className="w-[500px] h-[500px]" />
           </div>
         </div>
       )}

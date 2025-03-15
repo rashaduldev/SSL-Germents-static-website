@@ -37,10 +37,10 @@ const ContactForm = () => {
         // "template_2jpygwn", 
         // formData,
         // "5kuYCmxA4PaI2QFt4" 
-        "service_hajc4wn", 
-        "template_y3tyqpq", 
+        "service_6h4iabq", 
+        "template_lyon48f", 
         formData,
-        "r3p7NL-T5QFcUdJy2" 
+        "ViYdRRJ_BZH8MBfrT" 
       );
       console.log(result); // Debugging line
       setStatus("Message sent successfully!");
