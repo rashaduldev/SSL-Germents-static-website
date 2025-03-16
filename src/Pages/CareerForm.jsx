@@ -70,10 +70,10 @@ const CareerForm = () => {
     console.log(emailData)
     try {
       const result = await emailjs.send(
-        "service_6h4iabq", // Your EmailJS service ID
+        "service_mj1o32m", // Your EmailJS service ID
         "template_jst34ar", // Your EmailJS template ID
         emailData,
-        "ViYdRRJ_BZH8MBfrT" // Your EmailJS public key
+        "ZBsOsIl_nslTF42s2" // Your EmailJS public key
       );
 
       console.log(result);

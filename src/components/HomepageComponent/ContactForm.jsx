@@ -33,14 +33,10 @@ const ContactForm = () => {
   
     try {
       const result = await emailjs.send(
-        // "service_l3x3av4", 
-        // "template_2jpygwn", 
-        // formData,
-        // "5kuYCmxA4PaI2QFt4" 
-        "service_6h4iabq", 
-        "template_lyon48f", 
+        "service_hajc4wn", 
+        "template_ckn68lg", 
         formData,
-        "ViYdRRJ_BZH8MBfrT" 
+        "r3p7NL-T5QFcUdJy2" 
       );
       console.log(result); // Debugging line
       setStatus("Message sent successfully!");
