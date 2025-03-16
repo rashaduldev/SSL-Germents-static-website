@@ -14,7 +14,7 @@ import value12 from "../../assets/image/fontImage/Valus12.jpg";
 import value13 from "../../assets/image/fontImage/Valus13.jpg";
 
 const BottomCarousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(6); // Start at the first "real" card
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const autoplayInterval = useRef(null);
 
@@ -34,43 +34,22 @@ const BottomCarousel = () => {
     { id: 13, label: "Card 13", imgSrc: value13 },
   ];
 
-  const cardsToShow = 6;
   const totalCards = cards.length;
-
-  // Extended cards for seamless looping
-  const extendedCards = [
-    ...cards.slice(-cardsToShow),
-    ...cards,
-    ...cards.slice(0, cardsToShow),
-  ];
-
-  const handleNext = () => {
-    if (!isTransitioning) {
-      setIsTransitioning(true);
-      setCurrentIndex((prevIndex) => prevIndex + 1);
-    }
+  const cardsToShow = 6;
+  
+  const nextSlide = () => {
+    setIsTransitioning(true);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % totalCards);
   };
 
-  const handlePrev = () => {
-    if (!isTransitioning) {
-      setIsTransitioning(true);
-      setCurrentIndex((prevIndex) => prevIndex - 1);
-    }
-  };
-
-  const handleTransitionEnd = () => {
-    setIsTransitioning(false);
-
-    // Adjust the index when reaching the start or end of the extended cards
-    if (currentIndex === 0) {
-      setCurrentIndex(totalCards);
-    } else if (currentIndex === totalCards + cardsToShow) {
-      setCurrentIndex(cardsToShow);
-    }
+  const prevSlide = () => {
+    setIsTransitioning(true);
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + totalCards) % totalCards);
   };
 
   const startAutoplay = () => {
-    autoplayInterval.current = setInterval(handleNext, 3000);
+    stopAutoplay();
+    autoplayInterval.current = setInterval(nextSlide, 2000);
   };
 
   const stopAutoplay = () => {
@@ -94,7 +73,7 @@ const BottomCarousel = () => {
       <div className="absolute inset-0 bg-black opacity-30" />
       <div className="flex justify-center items-center h-full relative z-10">
         <button
-          onClick={handlePrev}
+          onClick={prevSlide}
           className="absolute left-2 top-[60%] transform -translate-y-1/2 text-white text-5xl z-10"
         >
           &lt;
@@ -110,20 +89,13 @@ const BottomCarousel = () => {
           </h1>
           {/* Carousel */}
           <div
-            className="flex transition-transform duration-300 ease-in-out gap-5 cursor-pointer"
+            className="flex transition-transform duration-500 ease-in-out gap-5 cursor-pointer"
             style={{
-              transform: `translateX(-${
-                (currentIndex * 100) / cardsToShow
-              }%)`,
-              transition: isTransitioning ? "transform 0.3s ease-in-out" : "none",
+              transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`,
             }}
-            onTransitionEnd={handleTransitionEnd}
           >
-            {extendedCards.map((card, index) => (
-              <div
-                key={index}
-                className="w-1/2 md:w-1/6 p-2 flex-shrink-0"
-              >
+            {cards.map((card, index) => (
+              <div key={index} className="w-1/2 md:w-1/6 p-2 flex-shrink-0">
                 <div className="w-full h-[350px] rounded-md flex justify-center items-center transform transition-transform duration-300 hover:scale-105">
                   <img
                     src={card.imgSrc}
@@ -136,7 +108,7 @@ const BottomCarousel = () => {
           </div>
         </div>
         <button
-          onClick={handleNext}
+          onClick={nextSlide}
           className="absolute right-2 top-[60%] transform -translate-y-1/2 text-white text-5xl z-10"
         >
           &gt;

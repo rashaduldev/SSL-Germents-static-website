@@ -33,12 +33,8 @@ const ContactForm = () => {
   
     try {
       const result = await emailjs.send(
-        // "service_l3x3av4", 
-        // "template_2jpygwn", 
-        // formData,
-        // "5kuYCmxA4PaI2QFt4" 
         "service_hajc4wn", 
-        "template_y3tyqpq", 
+        "template_ckn68lg", 
         formData,
         "r3p7NL-T5QFcUdJy2" 
       );
