@@ -52,7 +52,7 @@ const CategoryDisplay = () => {
     return (
       <div>
         <Nav isVisible={true} />
-        <p className="mt-36 container mx-auto text-center text-3xl font-bold">
+        <p className="mt-64 container mx-auto text-center text-3xl font-bold min-h-[50vh]">
           No data found for {category} {subcategory ? `- ${subcategory}` : ''}.
         </p>
       </div>

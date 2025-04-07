@@ -185,7 +185,7 @@ const CommonNav = () => {
             <NavLink to={'/gallery/men/longpant'}>Long Pant</NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/men/underware'}>Underware</NavLink>
+            <NavLink to={'/gallery/men/underwear'}>Underwear</NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
             <NavLink to={'/gallery/men/footware'}>Footware</NavLink>

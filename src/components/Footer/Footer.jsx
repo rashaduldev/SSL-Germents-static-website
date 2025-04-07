@@ -22,7 +22,7 @@ const Footer = () => {
       </button>
       <div className="container mx-auto footer p-10">
         <nav className="">
-        <div className="text-lg mb-5">
+        <div className="text-lg md:mb-5 m-5 md:m-0">
           <img className="w-16 h-14 text-center mx-auto"   src={logo} alt="" />
         <p className='italic pt-1 font-bold text-lg'>100% Export Oriented Company</p>
         </div>
@@ -104,22 +104,25 @@ Jewel Richmond, Rajagiri Valley
           </div>
         </nav>
       </div>
-      <div className="flex justify-center gap-5 border-base-300 px-10 py-4 text-3xl">
+      <div className="flex justify-center gap-5 border-base-300 px-10 py-4 text-3xl mb-5">
       <a href="https://www.facebook.com/StyloriumBD" target="_blank" rel="noopener noreferrer">
-    <FaFacebook />
-  </a>
-  <a href="https://www.linkedin.com/company/stylorium-sourcing-limited" target="_blank" rel="noopener noreferrer">
-    <FaLinkedin />
-  </a>
-  <a href="https://www.instagram.com/stylorium_sourcing_ltd" target="_blank" rel="noopener noreferrer">
-  <FaInstagram />
-  </a>
+        <FaFacebook />
+      </a>
+      <a href="https://www.linkedin.com/company/stylorium-sourcing-limited" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin />
+      </a>
+      <a href="https://www.instagram.com/stylorium_sourcing_ltd" target="_blank" rel="noopener noreferrer">
+      <FaInstagram />
+      </a>
       </div>
       <footer className="footer footer-center bg-base-300 text-base-content p-4">
         <aside>
           <p className="text-lg">
             Copyright © {new Date().getFullYear()} - Stylorium Sourcing Ltd.
           </p>
+          <p>
+          Developed by <a className="text-blue-700 cursor-pointer" href="https://rashaduldev.vercel.app" target="_blank">Md Rashadul Islam</a>
+        </p>
         </aside>
       </footer>
     </footer>
