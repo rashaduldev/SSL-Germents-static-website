@@ -36,7 +36,7 @@
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1740477021/Trousers-004_yww8tm.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1740477025/Trousers-005_frfray.jpg"
           ],
-          "productName": ["Leather pant", "Jeans", "jeans", "Trouser", "Trouser", "Trouser", "Leggins", "Leggins"],
+          "productName": ["Leather Pant", "Jeans", "Jeans", "Trouser", "Trouser", "Trouser", "Leggings", "Leggings"],
           "video":"https://res.cloudinary.com/de8yddexc/video/upload/v1737121469/SSL/czxdcpjidbm7rz9oayjs.mp4"
         },
         {
@@ -309,7 +309,6 @@
         {
           "name": "shirt",
           "images": [
-            "https://res.cloudinary.com/dph7pee1n/image/upload/v1739782482/Shirt-001_sgpati.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739782482/Shirt-001_sgpati.jpg"
           ],
           "productName": ["Shirt", "Shirt"],
@@ -483,7 +482,14 @@
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739691441/Sneakers-055_2_zhd0sf.jpg",
 			"https://res.cloudinary.com/dph7pee1n/image/upload/v1739691499/Sneakers-055_ywrlwr.jpg"
           ],
-          "productName": ["Running Shoes", "Boots", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Boots", "Boots", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers", "Sneakers"],
+          "productName": ["Running Shoe", "Running Shoe", "Sports Shoe", "Sports Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Running Shoe", "Running Shoe", "Tracking Shoe", "Tracking Shoe",
+		  "Sports Shoe", "Sports Shoe", "Sports Shoe", "Sports Shoe", "Tracking Shoe", "Tracking Shoe", "Running Shoe", "Running Shoe", "Sports Shoe", "Sports Shoe", "Tracking Shoe", "Tracking Shoe", "Sports Shoe", "Sports Shoe",
+		  "Running Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Running Shoe", "Running Shoe", "Tracking Shoe", "Tracking Shoe",
+		  "Sports Shoe", "Sports Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Sports Shoe", "Sports Shoe", "Running Shoe", "Running Shoe", "Sports Shoe", "Sports Shoe", "Running Shoe", "Running Shoe", "Tracking Shoe",
+		  "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe",
+		  "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Running Shoe", "Running Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe",
+		  "Tracking Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Sports Shoe", "Sports Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe",
+		  "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Running Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe", "Tracking Shoe"],
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737120436/SSL/o9tm6qtdgcvwvjq0tmqj.mp4"
         }
       ]
@@ -666,11 +672,11 @@
 		  "https://res.cloudinary.com/dph7pee1n/image/upload/v1740374671/Screenshot_2024-06-10_145917_cwgk51.png",
 		  "https://res.cloudinary.com/dph7pee1n/image/upload/v1740374672/Screenshot_2024-06-10_150101_o60wli.png"
           ],
-      "productName": ["Earring", "Earrings", "Earrings", "Earrings", "Earring", "Earrings", "Earrings", "Earrings", "Earrings", "Earrings", "Earrings", "Earrings",
+      "productName": ["Earrings", "Earrings", "Earrings", "Earrings", "Earring", "Earrings", "Earrings", "Earrings", "Earrings", "Earrings", "Earrings", "Earrings",
 	  "Earrings", "Pendant", "Pendant", "Pendant", "Pendant", "Pendant", "Pendant", "Pendant", "Pendant", "Pendant", "Pendant", "Finger ring",
 	  "Finger ring", "Finger ring", "Finger ring", "Finger ring", "Finger ring", "Finger ring", "Earring", "Earrings", "Earrings", "Earrings", "Earrings",
 	  "Earrings", "Earrings", "Earrings", "Earrings", "Finger ring", "Finger ring", "Finger ring", "Finger ring", "Finger ring", "Finger ring", "Finger ring",
-	  "Finger ring", "Earring"],
+	  "Finger ring", "Earrings"],
           "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121197/SSL/cxtbnf2mtmdevj4i5exp.mp4"
         },
         {
@@ -805,7 +811,7 @@
       ],
       "productName": ["Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover",
 	  "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover",
-	  "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover"],
+	  "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover", "Bed cover"],
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
@@ -842,7 +848,7 @@
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
-      "name": "potholderorovenmet",
+      "name": "potholderorovenmitt",
       "images": [
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1740223438/Screenshot_2024-05-26_102238_v7u7z1.png",
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1740223439/Screenshot_2024-05-26_102245_id4yz3.png",
@@ -867,10 +873,10 @@
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740224482/Screenshot_2024-06-06_113410_ssftzg.png",
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740224485/Screenshot_2024-06-06_113417_qf6ncz.png"
       ],
-      "productName": ["Pot holder or oven met", "Pot holder or oven met", "pot holder or oven met", "pot holder or oven met", "Pot holder or oven met",
-	  "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met",
-	  "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met", "pot holder or oven met", "Pot holder or oven met",
-	  "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met", "Pot holder or oven met"],
+      "productName": ["Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt",
+	  "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt",
+	  "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt",
+	  "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt", "Pot holder or Oven mitt"],
       "video": "https://res.cloudinary.com/de8yddexc/video/upload/v1737121526/SSL/ixskwvoatpm5hy4i1sqh.mp4"
     },
     {
@@ -959,7 +965,8 @@
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740301183/Curtain-042_wkhjex.png",
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740301185/Curtain-043_b0bel4.png"
       ],
-      "productName": [],
+      "productName": ["Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain",
+	  "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain", "Curtain"],
       "video": "https://res.cloudinary.com/dph7pee1n/video/upload/v1743241527/Stylorium-Fashion_ivptkd.mp4"
     },
     {
@@ -1085,7 +1092,7 @@
       "video": "https://res.cloudinary.com/dph7pee1n/video/upload/v1743241527/Stylorium-Fashion_ivptkd.mp4"
     },
     {
-      "name": "placemat",
+      "name": "Placemat",
       "images": [
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1739864132/CHP_Placemat_details_03.03_1_-images-1_h0pyx4.jpg",
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1739864201/CHP_Placemat_details_03.03_1_-images-2_wuihhv.jpg",
@@ -1130,23 +1137,55 @@
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1739873621/Screenshot_2024-05-26_101930_s6j1qq.png",
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1739874612/Screenshot_2024-05-26_101937_osakq7.png"
       ],
-      "productName": ["placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat",
-	  "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat",
-	  "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat", "placemat",
-	  "placemat", "placemat", "placemat", "placemat", "placemat", "placemat"],
+      "productName": ["Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat",
+	  "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat",
+	  "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat",
+	  "Placemat", "Placemat", "Placemat", "Placemat", "Placemat", "Placemat"],
       "video": "https://res.cloudinary.com/dph7pee1n/video/upload/v1743241527/Stylorium-Fashion_ivptkd.mp4"
     },
     {
       "name": "coaster",
       "images": [
         "https://res.cloudinary.com/dph7pee1n/image/upload/v1740047573/WhatsApp_Image_2025-02-20_at_4.27.59_PM_prydrt.jpg",
-        "https://res.cloudinary.com/dph7pee1n/image/upload/v1740047573/WhatsApp_Image_2025-02-20_at_4.27.59_PM_prydrt.jpg",
-		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740047589/WhatsApp_Image_2025-02-20_at_4.25.14_PM_jkruye.jpg",
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740047620/WhatsApp_Image_2025-02-20_at_4.22.57_PM_2_jt4cdh.jpg",
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740047639/WhatsApp_Image_2025-02-20_at_4.22.57_PM_1_wz6b4z.jpg",
-		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740047653/WhatsApp_Image_2025-02-20_at_4.22.57_PM_kfvkqi.jpg"
-      ],
-      "productName": ["coaster", "coaster", "coaster", "coaster", "coaster", "coaster"],
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1740047653/WhatsApp_Image_2025-02-20_at_4.22.57_PM_kfvkqi.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627809/coaster-1_slecjj.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627835/coaster-2_y2n2fu.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627835/coaster-3_bk9pts.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627835/coaster-4_gslxiu.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627836/coaster-5_puqkwd.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627836/coaster-6_zlghn3.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627836/coaster-7_pmfphf.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627836/coaster-8_o3fksy.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627836/coaster-9_ckybiv.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627837/coaster-10_h1l5kf.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627840/coaster-11_jfwqhg.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627840/coaster-12_rssime.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627840/coaster-13_ujnikh.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627860/coaster-14_ianxf5.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627860/coaster-15_jvphxm.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627861/coaster-16_zuhhkt.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627861/coaster-17_bpsfmj.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627861/coaster-18_e5sclq.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627864/coaster-19_yvfk4a.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627865/coaster-20_m0j6xd.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627865/coaster-21_arefbr.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627865/coaster-22_mxr2my.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627869/coaster-23_tx8uaz.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627869/coaster-24_ixfsz2.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627869/coaster-25_kqjz3k.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627870/coaster-26_wft8qd.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627884/coaster-27_ox7d0q.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627884/coaster-28_uvqko6.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627884/coaster-29_kp8tg0.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627885/coaster-30_yxosxg.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627886/coaster-31_dyk4yt.jpg",
+		"https://res.cloudinary.com/dph7pee1n/image/upload/v1756627907/coaster-32_swgvc2.jpg"
+		],
+      "productName": ["Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster",
+	  "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster", "Coaster",
+	  "Coaster", "Coaster", "Coaster", "Coaster"],
       "video": "https://res.cloudinary.com/dph7pee1n/video/upload/v1743241527/Stylorium-Fashion_ivptkd.mp4"
     },
     {
@@ -1227,7 +1266,7 @@
       "productName": ["Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug",
 	  "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug",
 	  "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug", "Rug","Rug", "Rug", "Rug",
-	  "Rug", "Rug", "Rug", "Rug", "Rug"],
+	  "Rug", "Rug", "Rug", "Rug", "Rug", "Rug"],
       "video": "https://res.cloudinary.com/dph7pee1n/video/upload/v1743241527/Stylorium-Fashion_ivptkd.mp4"
     },
 	    {
@@ -1305,8 +1344,7 @@
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1739957328/Screenshot_2024-06-09_134442_tqlwis.png",
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1739957567/Screenshot_2024-06-09_134454_bmbjbk.png"
       ],
-      "productName": ["Recyle plastic & paper", "Recyle plastic & paper", "Recyle plastic & paper", "Recyle plastic & paper", "Recyle plastic & paper",
-	  "Recyle plastic & paper", "Recyle plastic & paper", "Recyle plastic & paper", "Recyle plastic & paper"],
+      "productName": ["Rattan", "Rattan", "Rattan", "Rattan", "Rattan", "Rattan", "Rattan", "Rattan", "Rattan"],
       "video": "https://res.cloudinary.com/dph7pee1n/video/upload/v1743241527/Stylorium-Fashion_ivptkd.mp4"
     },
     {
@@ -1390,7 +1428,7 @@
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1739964031/Cutting_board_2_yhq1qy.png",
 		"https://res.cloudinary.com/dph7pee1n/image/upload/v1739964038/Cutting_board_hvcfe5.png"
       ],
-      "productName": ["Bowl", "wall clock", "Soap case", "Ruti makker", "Ruti maker", "Cutting board", "Cutting board", "Cutting board", "Cutting board"],
+      "productName": ["Bowl", "Wall clock", "Soap case", "Cutting board", "Cutting board", "Cutting board", "Cutting board", "Cutting board", "Cutting board"],
       "video": "https://res.cloudinary.com/dph7pee1n/video/upload/v1743241527/Stylorium-Fashion_ivptkd.mp4"
     },
     {
@@ -1492,10 +1530,7 @@
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033018/51C5TrSt-GL_h5nm3a.jpg",
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033071/51FQRhcbpYL._SR600_315_PIWhiteStrip_BottomLeft_0_35_SCLZZZZZZZ_FMpng_BG255_255_255_zacr2p.png",
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033345/61erHto2i4L._AC_UF350_350_QL80__xfv46n.jpg",
-	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033412/61Nul7gmJGL._AC_UF894_1000_QL80__tzzcsi.jpg",
-	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033453/61X5pDTBs9L_z1nd4w.jpg",
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033485/71I8uPEfJUL._AC_UF1000_1000_QL80__yvpmtt.jpg",
-	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033529/71j6OP1zHPL._AC_UF1000_1000_QL80__rnl7ke.jpg",
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033597/71USxihSNnL._SL1500__u63gj5.jpg",
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033635/81buVOgRAzL._AC_SL1500__ykab7d.jpg",
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740033680/717lkAF4RtL._AC_UF1000_1000_QL80__aqm5y1.jpg",
@@ -1514,11 +1549,12 @@
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740034288/my-first-diplo_z9sr95.jpg",
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740034325/polkadot_elephant_2022_1200_x_if4vao.jpg",
 	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740034362/prod-4603255.5d9352962100005900f9041d_sse4jj.jpg",
-	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740034399/rubber-duck-sq_lqgkyv.jpg",
-	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740034456/Screenshot_2024-06-10_100735_muy5nu.png",
-	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740038912/Screenshot_2024-06-10_103306_k6fbht.png"
+	   "https://res.cloudinary.com/dph7pee1n/image/upload/v1740034399/rubber-duck-sq_lqgkyv.jpg"
       ],
-      "productName": [],
+      "productName": ["Buzz Lightyear", "Hamburger", "Vacuum Cleaners", "Vnicorn, Penguin, Panda", "Wooden blancing dolls", "Robot toy music eye", "Unicorn", "Engineering vehicle",
+	  "Blancing doll", "Rainbow pop IT", "Robot toy", "Wooden baby walker", "Double Sided dump  truck", "Baby stunt tricycle", "Dinosaure toy", "Woodlets shape sorter", "Mini Rainbow Cate Pillar",
+	  "Toy Shopping Trolly", "Cart Walker", "Elephant Baby Toy", "Qizzle Soft Toy", "Infant Toy", "Elephant Toy", "Telephone", "Elephant", "Dinosaure", "Elephant", "Wooden Ramps Racer",
+	  "Rubber Duck"],
       "video": "https://res.cloudinary.com/dph7pee1n/video/upload/v1743241527/Stylorium-Fashion_ivptkd.mp4"
     }
   ]
