@@ -14,12 +14,12 @@ const Faq = () => {
     { id: 2, question: 'Our detailed product list of SSL?', answer: 'Textile, Footwear, Handicraft, Home textile, Household, Gloves, Bags & Backpack, Toy, Home Textile, Garden Item, Kitchen Item & Jewelry etc. ' },
     { id: 3, question: 'How can I contact SSL?', answer: ' info@stylorium.net/yousuf.sarker@stylorium.net Mobile: +88 01730595698.' },
     { id: 4, question: 'What type of client can approach SSL?', answer: 'Retailer, Wholesaler, Importer & Distributor.' },
-    { id: 5, question: 'What is the shipment lead time after the order placement?', answer: 'If it is local material then we take 30-90 Days, OR it is import materials then need 90-120 days.' },
+    { id: 5, question: 'What is the shipment lead time after the order placement?', answer: 'If it is local material then we take 30-90 Days, OR if is import materials then need 90-120 days.' },
     { id: 6, question: 'What is the payment term?', answer: 'LC, TT, DP, CAD, DAP, CASH.' },
     { id: 7, question: 'What the minimum order quantity (MOQ) per style/color?', answer: '500 pices per color' },
-    { id: 8, question: 'Why would you consider SSL as your business partner?', answer: 'For comparative price with on time delivery.' },
-    { id: 9, question: 'How do I apply for a job at SSL?', answer: 'by web side as well as Email.' },
-    { id: 10, question: 'How and what do I negotiable?', answer: ' By email or Whats app as well as correct payment mode.' },
+    { id: 8, question: 'Why would you consider SSL as your business partner?', answer: 'For competitive price with on time delivery.' },
+    { id: 9, question: 'How do I apply for a job at SSL?', answer: 'by website as well as Email.' },
+    { id: 10, question: 'How and what do I Negotiate?', answer: ' By email or Whats app as well as correct payment mode.' },
     { id: 11, question: 'What time will the products be dispatched?', answer: 'Within the 30-120 days.' },
     { id: 12, question: 'Is there any advice that is relevant to all of your buyer?', answer: 'If you are doing business with us your thought will change.' },
   ];
@@ -31,34 +31,34 @@ const Faq = () => {
     {/* Video Background with Overlay Text */}
     <div className="relative mt-20 w-full h-[40vh]">
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 object-cover w-full h-full"
         src= "https://res.cloudinary.com/de8yddexc/video/upload/v1737121936/SSL/x5sugywnkafiawux3q1o.mp4"     
         autoPlay
         loop
         muted
       />
-      <div className="absolute flex flex-col top-0 left-0 w-full h-full bg-black bg-opacity-50 items-center justify-center">
-        <h1 className="text-white text-4xl font-bold">FAQ Page</h1>
-         <h3 className="mt-5 text-white text-sm md:text-xl">
-                    <span className="text-orange-300">
-                      <NavLink to={"/"}>Home</NavLink>
-                    </span>
-                    <span className="mx-3">/</span>
-                    <span>faq</span>
-                  </h3>
+      <div className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-50">
+        <h1 className="text-4xl font-bold text-white">FAQ Page</h1>
+         <h3 className="mt-5 text-sm text-white md:text-xl">
+            <span className="text-orange-300">
+              <NavLink to={"/"}>Home</NavLink>
+                </span>
+                  <span className="mx-3">/</span>
+                  <span>faq</span>
+          </h3>
       </div>
     </div>
 
     {/* FAQ Section */}
-    <section className="bg-gray-50 min-h-screen py-10">
-      <div className="container mx-auto px-6">
-        <div className="text-center pb-6">
-          <h2 className="text-3xl font-semibold relative inline-block pb-2">
+    <section className="min-h-screen py-10 bg-gray-50">
+      <div className="container px-6 mx-auto">
+        <div className="pb-6 text-center">
+          <h2 className="relative inline-block pb-2 text-3xl font-semibold">
             FAQ
             <span className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-16 h-1 bg-[#4C578D]"></span>
           </h2>
         </div>
-        <div className="bg-white shadow-lg rounded-lg p-6 max-w-3xl mx-auto">
+        <div className="max-w-3xl p-6 mx-auto bg-white rounded-lg shadow-lg">
           {faqs.map((faq) => (
             <div key={faq.id} className="border-b border-gray-200">
               <button
@@ -76,7 +76,7 @@ const Faq = () => {
               {openItem === faq.id && (
                 <div
                   id={`faq-answer-${faq.id}`}
-                  className="px-6 py-4 text-gray-600 text-sm transition-all duration-300 ease-in-out"
+                  className="px-6 py-4 text-sm text-gray-600 transition-all duration-300 ease-in-out"
                 >
                   {faq.answer}
                 </div>

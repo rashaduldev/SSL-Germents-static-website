@@ -17,7 +17,7 @@ const ServicesPage = () => {
     <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
     {/* Content */}
-    <div className="relative flex flex-col items-center justify-center h-full text-white text-center px-4">
+    <div className="relative flex flex-col items-center justify-center h-full px-4 text-center text-white">
       <h2 className="text-5xl font-bold">Our Services</h2>
       <p className="mt-2 text-lg">Reliable Apparel Best Manufacturing Solution</p>
     </div>
@@ -41,29 +41,29 @@ const ServicesPage = () => {
 </div>
     </div>
       {/* Our Values Section */}
-      <div className="p-8 container mx-auto">
+      <div className="container p-8 mx-auto">
       {/* Heading */}
      
 
-      <div className="flex flex-col lg:flex-row gap-8 items-start">
+      <div className="flex flex-col items-start gap-8 lg:flex-row">
         {/* Left Section */}
         <div className="flex-1 space-y-6">
-        <div className=" mb-8">
+        <div className="mb-8 ">
         <h2 className="text-[#4E5896] text-5xl py-9 font-bold uppercase">Our Services</h2>
-        <p className="text-gray-600 mt-4 text-xl max-w-3xl">
+        <p className="max-w-3xl mt-4 text-xl text-gray-600">
         <span className="font-bold logo-color">Stylorium Sourcing Ltd</span> is committed to provide our best customer service and quality assurance at a very competitive price. We provide our customer with samples and inspiration from our collection. In addition, our designer prepares our own design and converts customer concepts in to a real product. We are associated with top rated factories (Woven, jersey and Flat Bed Knitwear) in Bangladesh, India and Pakistan, who are highly organized quality products. Our comprehensive services are not only limited to the best sourcing house, buying arrangement, meeting with best manufacturer in the industry, sample development, sample approval, production quality control and timely shipment but also we take more ownership and responsibilities on our shoulders on your behalf in order to make sure risks are minimized and quality of products are not compromised.
         </p>
-        <p className="text-xl mt-4">
+        <p className="mt-4 text-xl">
         We have dynamic, talented and well-experienced team with a great office structure, including fabric sourcing, garment technologist & compliance. Range of product that we offer for women’s wear, Men’s wear and children wear as well as Non-Textile item.
 
         </p>
       </div>
           {/* Value Point 1 */}
           <div>
-            <h3 className="font-semibold text-lg text-gray-800">
+            <h3 className="text-lg font-semibold text-gray-800">
               To Our Clients Who Let Us Keep On Moving
             </h3>
-            <ul className="text-gray-600 mt-2 space-y-2 text-xl list-disc pl-5">
+            <ul className="pl-5 mt-2 space-y-2 text-xl text-gray-600 list-disc">
             <li><strong>Woven</strong> – Tops, bottoms, dresses, and tailoring.</li>
   <li><strong>Outerwear</strong> – Jackets and coats.</li>
   <li><strong>Jersey</strong> – Tops, bottoms, dresses, sleepwear.</li>
@@ -90,7 +90,7 @@ const ServicesPage = () => {
       <div className="flex">
           <div className="container mx-auto mt-10 mb-4 lg:w-1/2">
         <h1 className="text-3xl font-bold">Our Offered</h1>
-        <ul className="text-gray-600 mt-2 space-y-2 text-xl list-disc pl-5">
+        <ul className="pl-5 mt-2 space-y-2 text-xl text-gray-600 list-disc">
           <li>Product development, pattern and sample approval.</li>
           <li>Fabric and accessories approval.</li>
           <li>Evaluate and introduce factories which has the proper setup for knit or woven products and also capable of manufacture and deliver products as per buyer requirements within the given time.</li>
@@ -107,7 +107,7 @@ const ServicesPage = () => {
        
         </div>
           {/* Right Video */}
-          <div className="lg:w-1/2 mt-8 lg:mt-32 lg:ml-16">
+          <div className="mt-8 lg:w-1/2 lg:mt-32 lg:ml-16">
   <div className="relative">
     <video
       className="w-full h-auto rounded-lg shadow-lg"
@@ -124,7 +124,7 @@ const ServicesPage = () => {
   </div>
         </div>
       </div>
-      <p className="text-2xl">Quality remains the cornerstone of our company and we ensure that all our products that reach the clients all across the e are exceptional in quality. We want to have strong and long lasting relations with our clients and this propels us to cater them the best of our services.</p>
+      <p className="text-2xl">Quality remains the cornerstone of our company and we ensure that all our products that reach the clients all across the world exceptional in quality. We want to have strong and long lasting relations with our clients and this propels us to cater them the best of our services.</p>
     </div>
     </div>
    </div>

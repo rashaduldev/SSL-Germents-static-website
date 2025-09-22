@@ -16,13 +16,13 @@ const CommonNav = () => {
         </NavLink>
       </li>
       <li className="relative group">
-        <button className="text-gray-800 hover:text-blue-600 flex items-center gap-1">
+        <button className="flex items-center gap-1 text-gray-800 hover:text-blue-600">
           OUR COMPANY
           <IoIosArrowDown className="text-lg" />
         </button>
         {/* Dropdown Menu for OUR COMPANY */}
-        <ul className="absolute left-0 mt-0 bg-white shadow-md rounded-lg p-2 space-y-2 text-gray-800 hidden group-hover:block w-40">
-        <li className="border-b border-gray-800 w-full p-2">
+        <ul className="absolute left-0 hidden w-40 p-2 mt-0 space-y-2 text-gray-800 bg-white rounded-lg shadow-md group-hover:block">
+        <li className="w-full p-2 border-b border-gray-800">
             <NavLink
               to="/our-company/aboutus"
               className={({ isActive }) =>
@@ -32,7 +32,7 @@ const CommonNav = () => {
               ABOUT US
             </NavLink>
           </li>
-          <li className="border-b border-gray-800 w-full p-2 uppercase">
+          <li className="w-full p-2 uppercase border-b border-gray-800">
             <NavLink
               to="/our-company/mission"
               className={({ isActive }) =>
@@ -42,7 +42,7 @@ const CommonNav = () => {
               Mission
             </NavLink>
           </li>
-          <li className="border-b border-gray-800 w-full p-2">
+          <li className="w-full p-2 border-b border-gray-800">
             <NavLink
               to="/our-company/strength"
               className={({ isActive }) =>
@@ -52,7 +52,7 @@ const CommonNav = () => {
               STRENGTH
             </NavLink>
           </li>
-          <li className="border-b border-gray-800 w-full p-2 uppercase">
+          <li className="w-full p-2 uppercase border-b border-gray-800">
             <NavLink
               to="/our-company/compliance"
               className={({ isActive }) =>
@@ -62,7 +62,7 @@ const CommonNav = () => {
              Compliance
             </NavLink>
           </li>
-          <li className="border-b border-gray-800 w-full p-2 uppercase">
+          <li className="w-full p-2 uppercase border-b border-gray-800">
             <NavLink
               to="/our-company/goal"
               className={({ isActive }) =>
@@ -72,7 +72,7 @@ const CommonNav = () => {
               Company goal
             </NavLink>
           </li>
-          <li className="border-b border-gray-800 w-full p-2 uppercase">
+          <li className="w-full p-2 uppercase border-b border-gray-800">
             <NavLink
               to="/our-company/organogram"
               className={({ isActive }) =>
@@ -82,7 +82,7 @@ const CommonNav = () => {
               Organogram
             </NavLink>
           </li>
-          <li className="border-b border-gray-800 w-full p-2 text-xl">
+          <li className="w-full p-2 text-xl border-b border-gray-800">
             <NavLink
               to="/our-company/md"
               className={({ isActive }) =>
@@ -116,15 +116,15 @@ const CommonNav = () => {
       </li>
       
       <li className="relative group">
-  <button className="text-gray-800 hover:text-blue-600 flex items-center gap-1">
+  <button className="flex items-center gap-1 text-gray-800 hover:text-blue-600">
     PRODUCT GALLERY
     <IoIosArrowDown className="text-lg" />
   </button>
   {/* Dropdown Menu for PRODUCT GALLERY */}
   <div className="absolute -left-64 md:-left-[350px] mt-0 hidden group-hover:flex justify-center bg-white pt-5 w-[800px] md:w-[830px] h-[100vh] md:h-[70vh] shadow-md rounded-lg z-50 pl-0 overflow-y-auto">
-    <ul className="flex justify-between items-start gap-3 md:gap-20 px-0 py-4 text-black">
+    <ul className="flex items-start justify-between gap-3 px-0 py-4 text-black md:gap-20">
       {/* Women Category with Subitems */}
-      <li className="relative group w-full">
+      <li className="relative w-full group">
         <button className="text-black hover:text-blue-600 flex items-center text-[12px] md:text-[16px] gap-1 font-bold">
           Women
         </button>
@@ -133,7 +133,7 @@ const CommonNav = () => {
             <NavLink to={'/gallery/women/tops'}>Tops</NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/women/pant'}>Jens</NavLink>
+            <NavLink to={'/gallery/women/pant'}>Jeans</NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
             <NavLink to={'/gallery/women/paddedjacket'}>Padded Jacket</NavLink>
@@ -145,7 +145,7 @@ const CommonNav = () => {
       </li>
 
       {/* Men Category with Subitems */}
-      <li className="relative group w-full">
+      <li className="relative w-full group">
         <button className="text-black hover:text-blue-600 flex items-center text-[12px] md:text-[16px] md:gap-2 font-bold">
           Men
           <span className="text-white">.</span>
@@ -194,7 +194,7 @@ const CommonNav = () => {
       </li>
 
       {/* Kids Category with Subitems */}
-      <li className="relative group w-full">
+      <li className="relative w-full group">
         <button className="text-black hover:text-blue-600 text-[12px] md:text-[16px] flex items-center md:gap-1 font-bold">
           Kids
         </button>
@@ -215,7 +215,7 @@ const CommonNav = () => {
       </li>
 
       {/* Fashion Accessories */}
-      <li className="relative group w-full">
+      <li className="relative w-full group">
         <button className="text-black hover:text-blue-600 text-[12px] md:text-[16px] flex items-center md:gap-1 font-bold">
         Fashion
         </button>
@@ -245,7 +245,7 @@ const CommonNav = () => {
       </li>
 
       {/* Home Textile */}
-      <li className="relative group w-full">
+      <li className="relative w-full group">
         <button className="text-black hover:text-blue-600 text-[12px] md:text-[15px] flex items-center md:gap-1 font-bold -mx-8">
         Home Textile
         </button>
@@ -259,7 +259,7 @@ const CommonNav = () => {
             </NavLink>
           </li>
           <li className="hover:bg-gray-100 hover:text-blue-600 md:py-2 border-b text-[12px] md:text-[16px] border-black">
-            <NavLink to={'/gallery/hometextile/potholderorovenmet'}>Potholder
+            <NavLink to={'/gallery/hometextile/potholderorovenmitt'}>potholderorovenmitt
 
             </NavLink>
           </li>
@@ -286,7 +286,7 @@ const CommonNav = () => {
       </li>
 
       {/* Non Textile */}
-      <li className="relative group min-w-32 ml-5">
+      <li className="relative ml-5 group min-w-32">
         <button className="text-black hover:text-blue-600 text-[12px] md:text-[16px] flex items-center md:gap-1 font-bold ">
         Non Textile
         </button>

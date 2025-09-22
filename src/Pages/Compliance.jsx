@@ -13,32 +13,32 @@ const CompliancePage = () => {
       <SecondNavImg text="COMPLIANCE" img={navBgimg}/>
       <div className="">
         <div className="">
-          <p className="container mx-auto py-10 text-2xl">
-          <span className="logo-color font-bold">STYLORIUM SOURCING LTD.</span> uses the Plan, Do, Act and Check management method for the compliance. Which allows for efficiency and productivity. 
+          <p className="container py-10 mx-auto text-2xl">
+          <span className="font-bold logo-color">STYLORIUM SOURCING LTD.</span> uses the Plan, Do, Act and Check management method for the compliance. Which allows for efficiency and productivity. 
           </p>
         </div>
         <div className="container mx-auto my-5">
           <img className="mx-auto" src="https://i.postimg.cc/L84yy2rQ/Complience.png" alt="Compliance Flow" />
         </div>
         {/* Compliance Goals */}
-        <div className="text-center p-6 w-full rounded-lg">
-          <h3 className="text-2xl font-bold mb-4">COMPLIANCE GOALS</h3>
-          <ul className="text-gray-600 space-y-2 text-xl mx-auto">
-            <li className="flex flex-row justify-center items-center">
-              <span className="text-green-500 font-bold mb-1">✔</span>
+        <div className="w-full p-6 text-center rounded-lg">
+          <h3 className="mb-4 text-2xl font-bold">COMPLIANCE GOALS</h3>
+          <ul className="mx-auto space-y-2 text-xl text-gray-600">
+            <li className="flex flex-row items-center justify-center">
+              <span className="mb-1 font-bold text-green-500">✔</span>
               <span className="text-center">
                 Accelerating the business by creating a successful compliance program.
               </span>
             </li>
-            <li className="flex flex-row justify-center items-center">
-              <span className="text-green-500 font-bold mb-1">✔</span>
+            <li className="flex flex-row items-center justify-center">
+              <span className="mb-1 font-bold text-green-500">✔</span>
               <span className="text-center">
                 Minimizing business risk through safe, secure, and environmental-friendly workplaces where the goods
                 are produced.
               </span>
             </li>
-            <li className="flex flex-row justify-center items-center">
-              <span className="text-green-500 font-bold mb-1">✔</span>
+            <li className="flex flex-row items-center justify-center">
+              <span className="mb-1 font-bold text-green-500">✔</span>
               <span className="text-center">
                 Increasing business reputation by fulfilling the customers&apos;s requirements.
               </span>
@@ -46,66 +46,62 @@ const CompliancePage = () => {
           </ul>
         </div>
         {/* Section Container */}
-        <div className="container mx-auto max-w-6xl mt-10">
+        <div className="container max-w-6xl mx-auto mt-10">
           {/* PLAN | DO */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid gap-8 mb-12 md:grid-cols-2">
             {/* PLAN */}
-            <div className="text-center p-6 bg-white rounded-lg">
+            <div className="p-6 text-center bg-white rounded-lg">
               <img
                 src={plan}
                 alt="Plan Icon"
                 className="w-[16rem] h-[12rem] mx-auto mb-4"
               />
-              <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
+              <ul className="max-w-xs mx-auto space-y-2 text-left text-gray-600 text-md">
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Yearly & monthly audit schedule.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Developing a unique audit protocol & checklist.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
-                  <span>Web base monitoring & verification.</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
+                  <span>Web based monitoring & verification.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Training schedule for capacity building of factories.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Setting a target.</span>
                 </li>
               </ul>
             </div>
 
             {/* DO */}
-            <div className="text-center p-6 bg-white rounded-lg">
+            <div className="p-6 text-center bg-white rounded-lg">
               <img
                 src={doo}
                 alt="Do Icon"
                 className="w-[16rem] h-[12rem] mx-auto mb-4"
               />
-              <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
+              <ul className="max-w-xs mx-auto space-y-2 text-left text-gray-600 text-md">
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Assessment & creating report.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Development visit & CAP follow-up.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Training on COC, Local law & certification.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
-                  <span>Website follow-up and desktop verification.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>SWOT analysis and special care of vulnerable factories and issues.</span>
                 </li>
               </ul>
@@ -113,56 +109,52 @@ const CompliancePage = () => {
           </div>
 
           {/* ACT | CHECK */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="grid gap-8 mb-12 md:grid-cols-2">
             {/* ACT */}
-            <div className="text-center p-6 bg-white rounded-lg">
+            <div className="p-6 text-center bg-white rounded-lg">
               <img
                 src={act}
                 alt="Act Icon"
                 className="w-[16rem] h-[12rem] mx-auto mb-4"
               />
-              <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
+              <ul className="max-w-xs mx-auto space-y-2 text-left text-gray-600 text-md">
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Development visit & proper guidance.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Preparing the TNA & measuring progress.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Knowledge, document and experience sharing.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Making sure of the fulfillment of requirement.</span>
                 </li>
               </ul>
             </div>
 
             {/* CHECK */}
-            <div className="text-center p-6 bg-white rounded-lg">
+            <div className="p-6 text-center bg-white rounded-lg">
               <img
                 src={check}
                 alt="Check Icon"
                 className="w-[16rem] h-[12rem] mx-auto mb-4"
               />
-              <ul className="text-md text-gray-600 space-y-2 text-left mx-auto max-w-xs">
+              <ul className="max-w-xs mx-auto space-y-2 text-left text-gray-600 text-md">
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Follow-up audit.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
-                  <span>Desktop verification.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Surprise visit.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 font-bold mr-2">✔</span>
+                  <span className="mr-2 font-bold text-green-500">✔</span>
                   <span>Route-cause analysis.</span>
                 </li>
               </ul>
