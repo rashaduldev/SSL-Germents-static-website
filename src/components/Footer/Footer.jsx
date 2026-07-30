@@ -46,7 +46,7 @@ const Footer = () => {
         <FontAwesomeIcon icon={faAnglesUp} size="2xl" />
       </button>
 
-      <div className="container p-5 pt-10 mx-auto md:py-10 footer">
+      <div className="container p-5 pt-10 mx-auto md:py-10 md:pt-20 flex flex-col gap-10 md:flex-row md:justify-between">
         {/* Left */}
         <nav>
           <div className="m-5 text-lg md:mb-5 md:m-0">
@@ -58,9 +58,14 @@ const Footer = () => {
           <h6 className="text-2xl font-bold text-white">
             Stylorium Sourcing Ltd.
           </h6>
-          <a className="text-lg link link-hover">Corporate Headquarters</a>
+        </nav>
 
-          <ContactRow
+        {/* Middle */}
+        <nav className="text-lg mx-auto">
+          <a className="ml-2 text-lg font-bold link link-hover md:mt-16">
+            Bangladesh Office
+          </a>
+         <ContactRow
             icon={faHouseChimney}
             text="House: 43 (Level-5), Road: 17, Uttara, Dhaka-1230, Bangladesh"
             className="w-4/6 mt-3"
@@ -87,51 +92,9 @@ const Footer = () => {
           />
         </nav>
 
-        {/* Middle */}
-        <nav className="text-lg">
-          <a className="ml-2 text-lg font-bold link link-hover md:mt-16">
-            USA Office
-          </a>
-          <ContactRow
-            icon={faHouseChimney}
-            text="3000 N Ocean Blvd, ST# 102, Fort Lauderdale FL, 33308"
-            className="w-4/6 mt-3"
-          />
-          <ContactRow
-            icon={faEnvelope}
-            prefix="Email:"
-            href="mailto:les@stylorium.net"
-            text="les@stylorium.net"
-            className="ml-8"
-          />
-          <ContactRow
-            icon={faPhone}
-            prefix="Telephone:"
-            href="tel:+17328956858"
-            text="+1 732 895 6858"
-            className="w-4/6 mb-3 ml-8"
-          />
-
-          <a className="ml-2 text-lg font-bold link link-hover">India Office</a>
-          <ContactRow
-            icon={faHouseChimney}
-            text="Flat: N5 Crest View Jewel Richmond, Rajagiri Valley Kakkanad, Kochi, Kerala India"
-            className="w-4/6 mt-3"
-            item="start"
-          />
-
-          <a className="text-lg font-bold link link-hover">Pakistan Office</a>
-          <ContactRow
-            icon={faHouseChimney}
-            text="Dynasty Tower Adjacent Ocean Mall, 14th Floor, 1401 Clifton block 9. Karachi Pakistan"
-            className="w-4/6 mt-3"
-            item="start"
-          />
-        </nav>
-
         {/* Right */}
         <nav className="text-lg">
-          <h6 className="font-bold md:mt-16">Quick View</h6>
+          <h6 className="font-bold">Quick View</h6>
           <div className="flex gap-2 ">
             <FontAwesomeIcon icon={faCircleCheck} />
             <NavLink to={"/gallery"}>
